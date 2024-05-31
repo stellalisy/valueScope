@@ -1,0 +1,492 @@
+[science]
+1. Respectful Language: Encouraging users to maintain polite and respectful communication, refraining from insults or derogatory comments.
+2. Evidence-Based Discussions: Promoting the use of reliable sources and scientific evidence to support arguments and claims.
+3. Intellectual Curiosity: Encouraging an environment where questions and discussions are welcomed and fostered.
+4. Collaboration: Encouraging users to share knowledge and expertise to enhance discussions and help others understand complex scientific concepts.
+1. Open-mindedness: Encouraging users to be receptive to different perspectives and ideas, fostering constructive and inclusive discussions.
+2. Fact-checking: Promoting the verification of information and discouraging the spread of false or misleading content.
+3. Source Citations: Emphasizing the importance of citing reputable sources to strengthen arguments and provide a basis for discussion.
+4. No Personal Attacks: Establishing a norm against personal insults, attacks, or harassment towards other users.
+5. No Spam or Self-Promotion: Discouraging excessive self-promotion or the sharing of irrelevant content while promoting meaningful contributions.
+6. Clear and Concise Communication: Encouraging users to express their thoughts and ideas in a clear, concise, and understandable manner.
+7. Engaged and Active Participation: Promoting active engagement within the community, including responding to comments, answering questions, and participating in discussions.
+8. No Discrimination or Hate Speech: Fostering an environment that rejects discriminatory language, slurs, hate speech, or any form of discrimination based on race, gender, sexuality, religion, or other identities.
+9. Moderation and Rule Enforcement: Encouraging active moderation to maintain the integrity of the community and enforce established rules consistently.
+10. Responsible Downvoting: Encouraging users to use downvotes responsibly, focusing on the quality and relevance of content rather than personal biases or disagreements.
+
+[humor]
+1. Respect: This refers to the extent to which users show respect towards each other, as well as toward the subject matter being discussed.
+2. Inclusivity: This measures the degree to which the subreddit welcomes and includes users from diverse backgrounds and perspectives.
+3. Engagement: This assesses the level of user interaction and participation within the subreddit.
+1. Moderation: This refers to the effectiveness and consistency of the subreddit's moderation team in enforcing rules and maintaining a respectful environment.
+2. Originality: Measures the encouragement of original content creation and the reception of such content within the subreddit community.
+3. Supportiveness: Focuses on the extent to which users provide emotional support, advice, or encouragement to others in need within the subreddit.
+4. Quality Control: Assesses the community's effort to promote high-quality posts and discussions while discouraging low-effort content or spam.
+5. Inclusivity of Newcomers: Measures the subreddit's openness to newcomers, providing guidance, answering questions, and creating a welcoming environment.
+6. Constructive Criticism: Evaluates the community's ability to provide helpful and constructive feedback to creators or those seeking advice.
+7. Tolerance for Diverse Opinions: Assesses how well the subreddit handles differences of opinion and allows for respectful discussion and debate.
+8. Original Content Sharing: Focuses on the sharing and reception of original content produced by users within the subreddit.
+9. Information Sharing: Measures the subreddit's willingness to share helpful, accurate, and informative content related to the topic.
+10. Community Interaction: Assesses the level of interaction and communication among subreddit members, promoting a sense of community and connection.
+
+[technology]
+1. Respect for Others: This norm relates to treating other community members with courtesy and avoiding personal attacks.
+2. Helpful and Supportive Attitude: This norm emphasizes offering assistance, guidance, and support to others seeking help or information.
+3. Knowledge Sharing: This norm relates to the exchange of information, insights, and expertise between community members.
+4. Open-mindedness: This norm emphasizes being receptive to different perspectives and ideas, fostering healthy discussions.
+1. Inclusivity: The degree to which the community welcomes and embraces individuals from diverse backgrounds and perspectives.
+2. Tolerance for Beginners: The community's patience and willingness to assist newcomers and those with limited knowledge or experience.
+3. Moderation Effectiveness: The effectiveness of the moderation team in maintaining a civil and respectful environment.
+4. Source Credibility: The community's emphasis on providing and relying on accurate and reliable sources of information.
+5. Balanced Discussions: The extent to which the community encourages balanced and unbiased discussions, avoiding extreme polarization.
+6. Personal Privacy Respect: The community's respect for personal privacy and the protection of sensitive information.
+7. Non-Spam Environment: The community's persistence in preventing and discouraging spamming and self-promotion.
+8. Data Security Awareness: The level of awareness and emphasis placed on protecting user data and privacy.
+9. Responsiveness: The community's promptness in addressing inquiries, feedback, and reports from its members.
+10. Positive Reinforcement: The degree to which the community promotes positivity, encouragement, and recognition of valuable contributions.
+
+[news]
+1. Civility and Respect: This norm entails maintaining polite and respectful discourse within the subreddit.
+2. Fact-based Information: The expectation is that discussions and posts are based on reliable and accurate facts.
+3. Unbiased Reporting: A norm that encourages the presentation of news without a significant bias towards any specific political ideology.
+4. Use of Reliable Sources: Encouragement to share news from trustworthy and reputable sources.
+5. Substantive Discussion: Expectation of engaging in meaningful and in-depth discussions related to the news articles or topics.
+1. Inclusivity: The extent to which the subreddit fosters an inclusive environment and welcomes diverse perspectives and voices.
+2. Source Verification: The norm of fact-checking and verifying sources before sharing news or information.
+3. Transparency: The expectation of transparency regarding the moderation process, rules, and actions taken within the subreddit.
+4. Reddiquette Adherence: The adherence to the general guidelines and principles of reddiquette, including the proper use of upvotes, downvotes, and avoiding personal attacks.
+5. Balanced Coverage: The norm to provide a balanced coverage of different topics, events, and regions without neglecting important stories.
+6. Limited Self-Promotion: The norm discouraging excessive self-promotion and spamming within the subreddit.
+7. Quality of Submissions: The expectation that posted news articles or submissions meet certain quality criteria in terms of relevance, accuracy, and presentation.
+8. Constructive Feedback: The norm encouraging the provision of constructive feedback on news articles, headlines, or reporting styles.
+9. Respect for Journalistic Standards: The norm that emphasizes respect for journalistic ethics, such as avoiding plagiarism, proper attribution, and protecting sources.
+10. Engaging with Experts: The norm of engaging with experts and professionals in relevant fields to enhance the quality and accuracy of discussions and news analysis.
+
+[personal finance]
+1. Respect: How respectful are users towards each other? Are proper etiquette and tone maintained in discussions?
+2. Support: Do users actively provide support and guidance to those seeking advice or asking questions?
+3. Accuracy: Are responses and information provided on the subreddit accurate and backed by credible sources?
+4. Collaboration: Do users engage in collaboration, sharing resources, and knowledge to help each other?
+5. Open-mindedness: Are different perspectives and opinions welcomed, fostering healthy discussions?
+6. Inclusivity: Do users embrace diversity and inclusivity, making the community accessible for everyone?
+7. Positive Environment: Is the overall environment of the subreddit uplifting, encouraging, and motivating?
+1. Language and Tone: How is language and tone used within the subreddit? Is it polite, constructive, and free of derogatory or offensive language?
+2. Informativeness: Do discussions and posts provide valuable and informative content to users, helping them make informed decisions?
+3. Organization: Is the subreddit well-organized with clear categorization, tags, and guidelines for posting?
+4. Responsiveness: How responsive are users to queries, comments, and discussions? Do they engage actively with others?
+5. Empathy: Do users demonstrate empathy towards fellow Redditors, showing understanding and providing emotional support when needed?
+6. Personal Experience Sharing: Are users encouraged to share personal experiences and stories related to the topic, which can provide valuable insights?
+7. Sourcing: Are users encouraged to provide sources or references for the information they share, ensuring transparency and credibility?
+8. Balanced Discussions: Do discussions remain balanced, avoiding excessive bias towards certain investment strategies or financial approaches?
+9. Privacy and Confidentiality: Are users mindful of respecting privacy and confidentiality when discussing personal finance matters?
+10. Continued Learning: Is there a culture of continuous learning and self-improvement within the subreddit, encouraging users to expand their financial knowledge?
+
+[relationships]
+1. Respectful communication: This norm entails treating others with respect, avoiding personal attacks, and providing constructive feedback.
+2. Empathy and support: This norm revolves around showing understanding, compassion, and offering emotional support to individuals seeking advice or sharing their experiences.
+3. Non-judgmental attitude: This norm emphasizes refraining from judging others based on their choices, preferences, or past experiences.
+4. Open-mindedness: This norm involves being receptive to diverse perspectives, opinions, and experiences, fostering an inclusive environment for discussions.
+5. Privacy and confidentiality: This norm highlights the importance of respecting personal privacy and maintaining confidentiality when discussing sensitive topics.
+6. Verifying advice: This norm encourages users to critically evaluate and verify the advice provided, considering individual circumstances and seeking professional guidance if necessary.
+1. Constructive criticism: Encouraging members to provide helpful feedback and suggestions while avoiding derogatory or destructive comments.
+2. Inclusivity: Making an effort to create a welcoming and accepting atmosphere for individuals from diverse backgrounds, identities, and perspectives.
+3. Cultural sensitivity: Respecting and acknowledging cultural differences when discussing relationship matters, considering the impact of cultural norms and values on relationships.
+4. Evidence-based advice: Promoting the use of reliable sources, research, or personal experiences to support advice given, rather than relying solely on opinions or stereotypes.
+5. Consent and boundaries: Emphasizing the importance of consent, respecting personal boundaries, and discouraging coercion or manipulation in relationships.
+6. Relationship equality: Encouraging discussions on equitable and balanced relationships, addressing power dynamics, and promoting mutual respect and collaboration.
+7. Emotional intelligence: Encouraging understanding, empathy, and emotional awareness in relationship discussions, fostering healthy emotional expression.
+8. Conflict resolution: Encouraging discussions and advice on effective communication strategies, problem-solving, and peaceful resolution of conflicts in relationships.
+9. Self-reflection: Promoting self-awareness and introspection, encouraging individuals to consider their own role, biases, and responsibilities within relationships.
+10. Safety and well-being: Providing resources and guidance on recognizing signs of abuse, supporting individuals in potentially harmful situations, and prioritizing their safety and well-being.
+
+[gaming]
+1. Respect for Diversity: This dimension assesses the acceptance and respect of different gaming preferences, platforms, and opinions within the subreddit community.
+2. Welcoming Atmosphere: This dimension measures how welcoming the subreddit community is to newcomers, encouraging engagement and supportive interactions.
+3. Constructive Discussions: This dimension evaluates the quality and substance of discussions within the subreddit community, encouraging thoughtful conversations and exchanges of ideas.
+4. Moderation Effectiveness: Assessing the subreddit's moderation in enforcing rules, managing trolls, and maintaining a respectful environment.
+5. Quality Post Standards: Evaluating the subreddit's expectations for post quality, encouraging informative and engaging content.
+6. Healthy Criticism: Measuring how well the subreddit encourages constructive criticism without resorting to personal attacks or toxicity.
+7. Emphasis on Game Development: Gauging the subreddit's focus on discussing game development, industry trends, and upcoming releases.
+8. Inclusivity and Representation: Assessing how diverse and inclusive the subreddit community is, valuing inclusivity in terms of gender, race, and more.
+9. Support for Newcomers: Gauging the subreddit's support and assistance to newcomers, guiding them and answering their questions.
+10. Spoiler Policy and Enforcement: Evaluating the subreddit's guidelines and enforcement regarding spoilers to maintain a pleasant experience for all users.
+11. Community Events and Collaborations: Assessing the presence and engagement in community-driven events, tournaments, or collaborative projects.
+12. Engagement with Gaming Media: Measuring the subreddit's interaction with gaming media, such as sharing, discussing, and critiquing reviews and news articles.
+13. Encouragement of Original Content: Gauging how the subreddit community appreciates and supports original creations, such as artwork, videos, or game mods.
+
+[movies & tv shows]
+1. Respectful Discourse: This is the norm of maintaining respectful and civil discussions. It involves avoiding personal attacks, insults, or derogatory language.
+2. Spoiler Etiquette: This norm entails properly warning and labeling spoilers to ensure that users aren't accidentally exposed to important plot details.
+3. Diverse Opinions: This norm encourages the acceptance and acknowledgment of diverse perspectives and opinions, promoting healthy discussions.
+4. Source Attribution: The norm of giving credit to the original source or creator when sharing content or discussing information.
+5. Constructive Criticism: Encouraging the provision of feedback and critique in a constructive and respectful manner rather than resorting to destructive criticism.
+6. Quality Content: Promoting the sharing and creation of high-quality and relevant content, such as well-thought-out discussion posts, insightful analyses, or interesting recommendations.
+7. Inclusivity and Diversity: Encouraging a welcoming and inclusive environment that values diverse voices, experiences, and perspectives from individuals of different backgrounds.
+8. Meme and Humor Appropriateness: Adhering to a norm of appropriate usage of memes and humor, ensuring they add value to discussions without being overly repetitive or offensive.
+9. Timeliness: The norm of timely participation in discussions and avoiding reviving old or irrelevant threads unless necessary.
+10. Non-Piracy Policy: Promoting adherence to legal and ethical guidelines, discouraging the sharing or discussing of pirated content or methods of accessing it.
+11. Informed Discussions: Encouraging users to back their opinions and arguments with evidence, research, or credible sources to enrich discussions.
+12. Positive Engagement: Fostering positive interactions, supportive comments, and appreciation for creative contributions from fellow users.
+13. Respect for Different Viewing Habits: Respecting and acknowledging that users may have differing preferences and methods of watching movies or TV shows (theatrical releases, streaming platforms, physical media, etc.).
+14. Non-Spoiler Title Nudity: Emphasizing the norm of avoiding spoiler-heavy titles that give away important plot details, protecting the viewing experience of others.
+
+[music]
+1. Respectful Communication: This norm pertains to how members interact with one another and the tone used while discussing various topics.
+2. Inclusivity and Open-mindedness: This norm focuses on the acceptance and promotion of diverse musical genres, different opinions, and appreciation for various artists.
+3. Constructive Criticism: This norm refers to the ability to provide feedback and critiques in a respectful and helpful manner, encouraging growth and improvement.
+4. Sharing and Discovery: This norm encompasses the act of sharing and discovering new music, whether it be through posting suggestions or participating in meaningful discussions.
+1. Quality Control: How the community regulates and maintains the quality of content shared, ensuring it meets certain standards.
+2. Supportive Atmosphere: How members uplift and inspire each other, providing encouragement and positivity.
+3. Promotion of Diversity: How the community embraces and encourages diversity in terms of musical genres, styles, and artists.
+4. Respect for Intellectual Property: How members acknowledge and respect copyright laws and intellectual property rights when sharing music.
+5. Use of Evidence and Reliable Sources: How discussions and recommendations are supported by credible sources, encouraging informed conversations.
+6. Ethical Behavior: How members adhere to ethical guidelines, such as avoiding plagiarism, harassment, or hate speech.
+7. Engagement and Participation: How active members are in participating and engaging in discussions, supporting a vibrant and dynamic community.
+8. Accessibility: How the community ensures that content and discussions are accessible to members with different levels of musical knowledge and backgrounds.
+9. Promotion of Offline Music Experiences: How members encourage attending live concerts, supporting local music scenes, and engaging in real-life music experiences.
+10. Conflict Resolution: How conflicts and disagreements are managed within the community, aiming for peaceful resolutions and fostering understanding.
+
+[art & design]
+1. Positive and constructive feedback: Encouraging members to provide constructive criticism and appreciation for each other's work.
+2. Respect for artistic expression: Fostering an environment that values and respects individual creativity and diverse styles.
+3. Collaboration and sharing: Promoting a spirit of collaboration, sharing resources, and exchanging ideas.
+4. Welcoming beginners: Creating a supportive space for artists and designers at all skill levels to learn and grow.
+5. Original content: Encouraging the sharing of original artwork, designs, and photography.
+1. Diversity and inclusion: Encouraging diverse perspectives, promoting inclusivity, and respecting different cultural backgrounds within the art and design community.
+2. Ethical practices: Advocating for responsible and ethical art and design practices, such as giving credit to original creators and respecting intellectual property rights.
+3. Safe and respectful environment: Maintaining a space that prioritizes respectful communication, discourages harassment or hate speech, and promotes a sense of safety for all participants.
+4. Inspiration and motivation: Encouraging members to inspire and motivate each other through their artistic creations, sharing success stories, and offering support during creative blocks or challenges.
+5. Self-promotion guidelines: Establishing clear guidelines for self-promotion within the subreddit to avoid excessive spam or advertising and maintain a fair and balanced environment.
+6. Quality standards: Encouraging high-quality contributions by setting clear standards for the submission of artwork, designs, or photography.
+7. Knowledge sharing: Promoting the sharing of knowledge, techniques, and resources related to various aspects of art and design.
+8. Critical analysis: Encouraging members to engage in thoughtful and constructive analysis of artwork, designs, or photography to foster a deeper understanding and appreciation of different styles and techniques.
+9. Community involvement: Encouraging members to actively participate in community events, challenges, collaborations, or online exhibitions to strengthen the sense of belonging and shared interests.
+10. Mentorship and guidance: Encouraging experienced artists and designers to provide guidance and mentorship to newcomers, fostering a culture of learning, growth, and support.
+
+[food]
+1. Respectfulness and Supportiveness: Measure of how users engage with each other, offering constructive criticism, advice, and encouragement.
+2. Inclusivity and Diversity: Evaluation of how diverse perspectives, cuisines, dietary restrictions, and cultural backgrounds are embraced within the subreddit.
+3. Rule Adherence: Assessment of users following subreddit-specific rules, guidelines, and posting format requirements.
+4. Original Content: Examination of how much original content users generate versus relying solely on reposts.
+5. Engagement Levels: Assessment of user participation through upvotes, comments, and sharing experiences.
+1. Information Sharing: How willingly users share their knowledge, experiences, and resources with others.
+2. Tolerance and Acceptance: The degree to which diverse opinions, cultures, and beliefs are respected and accepted within the subreddit.
+3. Quality Control: The enforcement of quality standards for posts and comments, ensuring that misleading or inappropriate content is regulated.
+4. Newbie Friendliness: The level of support and patience shown towards newcomers or those seeking guidance and advice.
+5. Collaboration and Community Projects: The extent to which users collaborate on collective projects or contribute to community initiatives.
+6. Source Attribution: The habit of crediting original sources when sharing content or discussing ideas.
+7. Moderation Transparency: The clarity and openness of subreddit moderators in terms of decision-making, rule enforcement, and communication with the community.
+8. Humor and Wit: The adoption of a lighthearted and clever approach to discussions and interactions within the subreddit.
+9. Conflict Resolution: How users handle disagreements, conflicts, and controversial topics while maintaining respectful dialogue.
+10. Accessibility and Inclusiveness: The efforts made to ensure that the content, discussions, and resources are accessible to users of different abilities, languages, or backgrounds.
+
+[fitness & health]
+1. Support and Encouragement: The community should provide a supportive and encouraging environment, where members uplift and motivate each other in their fitness and health journeys.
+2. Inclusivity and Respect: The subreddit should foster an inclusive atmosphere, welcoming people of all genders, ages, fitness levels, and backgrounds. Respect for individual differences and diverse perspectives is crucial.
+3. Sharing Knowledge and Experience: Members should be willing to share their knowledge, experiences, and insights related to fitness and health. This can include tips, resources, personal stories, and recommendation discussions.
+4. Constructive Criticism: The community should embrace constructive criticism and provide feedback in a considerate manner. This helps individuals improve their fitness routines and health practices without being judgmental or offensive.
+5. Evidence-Based Information: Subreddits should prioritize sharing scientifically supported information related to fitness and health. Discussions and recommendations based on credible research and sources are essential for accurate and safe practices.
+1. Accountability: The community encourages members to be accountable for their fitness and health goals, providing support and motivation to stay on track.
+2. Open-mindedness: The subreddit promotes an open-minded approach to different fitness and health practices, embracing diverse methods and perspectives.
+3. Empathy and Compassion: The community displays empathy and compassion towards individuals facing challenges or setbacks, offering understanding and support.
+4. Informed Decision-making: Members have access to credible information and resources, empowering them to make informed decisions regarding their fitness and health journey.
+5. Personal Growth: The subreddit supports members in their personal growth, not only in terms of physical fitness but also mental and emotional well-being.
+6. Safety Consciousness: The community prioritizes safety in fitness practices, providing guidance and advice to prevent injuries and promote healthy habits.
+7. No Gatekeeping: The subreddit avoids gatekeeping behaviors, ensuring that all members feel welcome and valued, regardless of their current fitness level or experience.
+8. Body Positivity: The community promotes a positive body image and fosters an environment that celebrates various body types, respecting that everyone's fitness journey is unique.
+9. Lifestyle Integration: The subreddit emphasizes the integration of fitness and health practices into members' daily lives, focusing on sustainable habits rather than short-term fixes.
+10. Goal Variety: The community recognizes and supports various fitness and health goals, acknowledging that individuals may have different objectives, such as strength, endurance, weight loss, or mental well-being.
+
+[travel]
+1. Supportiveness and Positivity: This dimension assesses the overall level of encouragement and helpfulness within the community.
+2. Open-mindedness and Tolerance: This dimension examines the acceptance of diverse travel styles, opinions, and backgrounds within the community.
+3. Respect for Local Cultures and Environments: This dimension measures the importance placed on respecting and preserving local cultures and environments during travel.
+1. Responsiveness: How quickly and consistently members engage with posts, offering suggestions or answering questions.
+2. Information Sharing: The willingness to provide detailed information, recommendations, and tips to help others plan their trips.
+3. Constructive Criticism: The ability to provide feedback and critique in a respectful and helpful manner, aiming to improve others' travel experiences.
+4. Inclusivity: The degree to which diverse voices and perspectives are welcomed and valued within the community.
+5. Authenticity: Encourages personal and genuine experiences, rather than promoting heavily staged or overly curated content.
+6. Collaboration: The tendency to engage in collaborative planning or organizing of group trips or meetups.
+7. Safety Awareness: The importance placed on discussing and promoting travel safety practices, especially for solo travelers.
+8. Ethical Tourism: The consideration given to supporting sustainable and responsible tourism practices, avoiding harmful or exploitative activities.
+9. Photography Etiquette: The respect for local customs and privacy when taking and sharing travel photographs.
+10. Engagement with Local Communities: The emphasis on interacting with and supporting local communities and businesses during travel.
+
+[books]
+1. Respectful Discourse: Are users generally polite and respectful towards one another, regardless of differing opinions or tastes?
+2. Inclusivity: Is the community open to and welcoming towards diverse perspectives, backgrounds, and reading preferences?
+3. Helpful Recommendations: Do users provide thoughtful and well-informed book recommendations, considering the specific requests or interests of others?
+4. Constructive Criticism: Is criticism offered in a constructive manner, focusing on improving discussions and understanding rather than simply dismissing or attacking others' viewpoints?
+5. Quality Content: Is there a general expectation and appreciation for high-quality book discussions, in-depth analysis, and insightful commentary?
+6. Engagement: Are users actively engaged in discussions, responding to posts, and fostering an interactive community?
+7. Moderation: How effectively are rules enforced, and do moderators ensure a positive and respectful environment?
+1. Tolerance: Does the community show acceptance and respect for diverse opinions, backgrounds, and reading preferences?
+2. Accessibility: Is the community welcoming to newcomers, providing resources, guidance, and fostering a non-intimidating environment?
+3. Open-mindedness: Are members receptive to exploring new genres, authors, and literary styles, encouraging exploration and experimentation?
+4. Empathy: Do users demonstrate understanding and empathy towards others' experiences, perspectives, and challenges in relation to books and reading?
+5. Inclusivity of Marginalized Voices: Is there an effort to amplify and include voices from marginalized communities in book discussions and recommendations?
+6. Depth of Analysis: Does the community encourage thoughtful and insightful discussions that go beyond surface-level analysis?
+7. Supportiveness: To what extent do members offer encouragement, emotional support, and engagement in discussions, fostering a friendly and uplifting atmosphere?
+8. Adaptability: How well does the community adapt to changes in the book industry, technological advancements, and evolving reading habits?
+9. Engagement with Authors: Does the subreddit facilitate interactions with authors, AMA (Ask Me Anything) sessions, or discussions about authors as recognized figures?
+10. Ethical Considerations: Is there a consciousness and discussion around ethical aspects of reading, such as supporting diverse authors, avoiding piracy, and being mindful of representation?
+
+[sports]
+1. Respect for diversity and fair play: This norm focuses on treating others with respect, regardless of their team or player preference, and promoting fairness in discussions and debates.
+2. Sportsmanship and constructive criticism: This norm focuses on promoting fair sportsmanship, accepting defeat gracefully, and providing constructive criticism rather than personal attacks.
+3. Sharing news and updates: This norm revolves around timely sharing of sports news, breaking stories, updates on games, injuries, and other related information.
+4. Providing analysis and insights: This norm encourages users to share in-depth analysis, game strategy breakdowns, and insights into players' performances.
+5. Memes and humor: This norm emphasizes sharing light-hearted, sports-related memes, jokes, and humorous content.
+1. Open-mindedness and tolerance: The extent to which different perspectives, opinions, and ideas are welcomed and respected within the subreddit.
+2. Constructive criticism and feedback: The promotion of providing helpful and constructive feedback rather than personal attacks or insults.
+3. Collaboration and community engagement: Encouraging users to work together, share resources, and actively engage with the community.
+4. Inclusivity and diversity: Valuing and promoting the inclusion of individuals from diverse backgrounds, cultures, and identities.
+5. Support and empathy: Demonstrating empathy and support towards fellow users, particularly during challenging or difficult situations.
+6. Fact-checking and reliable information: The dedication to sharing accurate, well-sourced information and discouraging the spread of misinformation.
+7. Welcoming newcomers: Creating a welcoming environment for newcomers, making it easy for them to join the conversations and ask questions.
+8. Avoiding personal attacks and negativity: Discouraging personal attacks, insults, or derogatory language towards other users.
+9. Respect for privacy and consent: Respecting the privacy of individuals and seeking consent before sharing personal information.
+10. Non-commercialism: Avoiding excessive self-promotion, spam, and advertisements to maintain a focus on genuine interaction and discussion.
+
+[history]
+1. Respect for accurate knowledge: This norm emphasizes the importance of factual and well-researched content. Subreddits that prioritize providing reliable historical information and encourage critical thinking would be considered more aligned with this norm. Subreddits like r/AskHistorians and r/history would score highly in this dimension due to their strict rules and rigorous moderation for accuracy.
+2. Engagement and participation: This norm reflects the level of interaction and involvement within the community. Subreddits that promote active discussions, debates, and sharing of historical perspectives tend to score higher in this category. r/history and r/AskHistorians succeed in this aspect by encouraging users to engage with each other and share their knowledge.
+3. Accessibility and inclusivity: This norm pertains to ensuring that the discussion and content are accessible to individuals with varying levels of knowledge or interest in history. Subreddits that provide resources for beginners, maintain a friendly atmosphere, and deter gatekeeping would exhibit a commitment to inclusivity. r/history, r/AskHistorians, and r/historymemes score well in this aspect due to their beginner-friendly content and guidelines.
+4. Quality contribution: This norm highlights the value placed on informative or thought-provoking posts and comments. Subreddits that prioritize high-quality posts, original content, and meaningful discussions would be considered to excel in this dimension. r/AskHistorians distinguishes itself in this regard by strictly enforcing strict sourcing standards and promoting in-depth, well-researched answers.
+5. Avoidance of inappropriate or offensive content: This norm encompasses the moderation efforts to keep the discussion respectful, civil, and free from inappropriate or offensive material. Subreddits that have comprehensive rules against trolling, hate speech, and personal attacks would align more closely with this norm. Again, r/AskHistorians is commendable for its stringent moderation policies, ensuring the subreddit maintains a high standard of discussion.
+1. Community guidelines and rules adherence: Assessing the extent to which users follow the subreddit's guidelines and rules, promoting a respectful and constructive environment.
+2. Diversity and representation: Evaluating if the subreddit encourages participation from diverse backgrounds, perspectives, and identities, fostering inclusivity and avoiding discrimination.
+3. Supportive and helpful interactions: Gauging the level of support and assistance users provide to each other, whether through sharing resources, answering questions, or offering guidance.
+4. Content variety: Examining the range of topics, formats, and sources of content within the subreddit, promoting a diverse and engaging experience for users.
+5. Citation and sourcing: Assessing the prevalence of citing credible sources and linking to relevant materials, promoting accurate information and reliable discussions.
+6. Engagement with moderators: Evaluating the subreddit's relationship between users and moderators, regarding effective communication, responsiveness to concerns, and transparency in decision-making.
+7. Encouragement of original content: Assessing whether the subreddit fosters the creation and sharing of original content, such as articles, analyses, or artistic contributions.
+8. Welcoming atmosphere for newcomers: Identifying whether the subreddit actively welcomes new users, provides resources for learning, and encourages participation from individuals with varying levels of knowledge.
+9. Respect for differing opinions: Evaluating the subreddit's overall tolerance for diverse viewpoints, allowing for respectful debates and discussions without resorting to personal attacks or hostility.
+10. Avoidance of misinformation and conspiracy theories: Assessing the subreddit's efforts to combat the spread of misinformation, conspiracy theories, or unsupported claims by promoting critical thinking and corrects inaccuracies.
+
+[philosophy]
+1. Respectful discourse: The extent to which users engage in civil and respectful discussions without personal attacks or insults.
+2. Open-mindedness: The willingness of users to consider diverse perspectives and engage in constructive debates rather than dismissing opposing viewpoints.
+3. Intellectual rigor: The commitment of users to logical reasoning, critical thinking, and evidence-based arguments.
+4. Supportive community: The willingness of members to provide helpful and insightful responses to questions or inquiries from fellow users.
+5. Inclusivity: The extent to which different philosophical traditions, schools of thought, and perspectives are welcomed and actively discussed.
+6. Accessibility: The ability of users to engage in discussions of philosophy at various levels of complexity, without excluding newcomers or less experienced individuals.
+1. Relevance: The extent to which posts and discussions align with the main focus or theme of the subreddit.
+2. Quality of sources: The emphasis on providing credible and reliable sources to support arguments or claims.
+3. Empathy and understanding: The degree to which users demonstrate empathy towards others' perspectives and exhibit a willingness to understand different viewpoints.
+4. Consistency: The tendency of users to maintain consistent arguments and avoid contradiction within discussions.
+5. Moderation effectiveness: The effectiveness of moderators in enforcing rules, maintaining a positive environment, and resolving conflicts.
+6. Use of evidence: The encouragement for users to provide evidence, logical reasoning, and references to support their claims or arguments.
+7. Clarity of communication: The clarity and conciseness of users' communication, making discussions accessible and understandable for all participants.
+8. Avoidance of gatekeeping: The avoidance of dismissing or excluding individuals based on their level of expertise, background, or familiarity with the subject matter.
+9. Welcoming newcomers: The degree to which newcomers feel welcomed, supported, and encouraged to participate in discussions.
+10. Constructive feedback: The ability of users to provide constructive criticism and feedback to help others improve their arguments or understanding.
+
+[coding & programming]
+1. Respectful Communication: Do the members interact with each other respectfully, avoiding personal attacks or derogatory language?
+2. Helpful Attitude: Do members offer assistance and guidance to those seeking help or knowledge? Is the community supportive and encouraging to beginners or those struggling with coding challenges?
+3. Knowledge Sharing: Do members freely share their knowledge, resources, and experiences?
+4. Collaboration: Is there a culture of collaboration and teamwork within the community? Are there opportunities for members to work together on projects or share code reviews?
+5. Inclusivity: Is the community inclusive and welcoming to individuals of all backgrounds and experiences?
+6. Open-mindedness: How receptive are members to new ideas, different approaches, and alternative viewpoints?
+7. Accountability: Are members held accountable for their actions and behavior within the community?
+8. Tolerance for Mistakes: Is there an understanding that making mistakes is a natural part of the learning and coding process?
+9. Professionalism: How well do members maintain a level of professionalism in their interactions and discussions?
+10. Empathy: Is there a culture of empathy and understanding towards individuals facing coding challenges or difficulties?
+11. Responsiveness: How promptly do members respond to questions, comments, and requests for help?
+12. Adaptability: Are members willing to adapt and adjust their coding practices based on feedback and new information?
+13. Resourcefulness: Do members actively share useful resources, tutorials, and tools to aid in learning and development?
+14. Clarity of Communication: How effectively do members communicate their ideas, explanations, and instructions?
+15. Code of Conduct Adherence: How well does the subreddit enforce its stated code of conduct to ensure a safe and respectful environment?
+
+[diy & crafts]
+1. Supportiveness: This refers to the level of encouragement, assistance, and positive feedback within the community.
+1. Inclusivity: How welcoming and accepting is the community towards individuals from diverse backgrounds and skill levels?
+2. Respectfulness: To what extent do members communicate respectfully and maintain a positive tone during discussions?
+3. Collaboration: How open are members to collaborating on projects, sharing ideas, or working together?
+4. Originality: How much value is placed on creativity, unique designs, and original work within the community?
+5. Accessibility: How readily available and understandable are resources, instructions, and tutorials provided by the members?
+6. Safety Awareness: How mindful are members about sharing and following safety precautions in their DIY and craft projects?
+7. Environmental Consciousness: How much emphasis is placed on sustainable, eco-friendly practices and materials in DIY and crafts discussions?
+8. Skill Development: To what extent do members exchange knowledge, offer guidance, and promote skill improvement among each other?
+9. Cultural Sensitivity: How considerate are members towards diverse cultural influences and traditions in DIY and craft discussions?
+10. Ethical Practices: How much importance is given to ethical sourcing of materials, respect for intellectual property, and fair compensation for artisans and creators?
+
+[fashion]
+1. Style Diversity: How open are the members to different styles and fashion preferences? Do they encourage individuality and personal expression, or is there a dominant consensus on what is considered fashionable?
+2. Inclusivity: How welcoming and inclusive are the subreddits to people of all backgrounds, sizes, and abilities?
+3. Constructive Criticism and Advice: How helpful and constructive are the comments and discussions when it comes to providing fashion advice or critiquing outfits?
+1. Community Engagement: How active and engaged is the subreddit's community? Are members responsive, engaged in discussions, and willing to help others?
+2. Respectful Discussions: How respectful and civil are the interactions within the subreddit? Are disagreements handled appropriately and without personal attacks?
+3. Inclusivity of Body Types: How inclusive is the subreddit in terms of embracing and celebrating different body types, sizes, and representations?
+4. Ethical Fashion: Does the subreddit discuss and promote ethical and sustainable fashion practices, such as environmentally friendly materials, fair trade, or cruelty-free fashion?
+5. Size and Price Range Diversity: Does the subreddit cover a wide range of clothing sizes and price ranges, or does it primarily focus on specific demographics?
+6. Accessibility: How accessible is the advice and content shared on the subreddit? Are there discussions regarding fashion for individuals with disabilities or limited mobility?
+7. Cultural Diversity: Does the subreddit appreciate and incorporate diverse cultural fashion influences and perspectives?
+8. Gender-Neutral Fashion: How inclusive and supportive is the subreddit of gender-neutral fashion choices and discussions?
+9. Confidence & Body Positivity: To what extent does the subreddit promote body positivity and encourage members to feel confident and comfortable in their fashion choices?
+10. Lifespan of Fashion Advice: Does the subreddit focus on short-term fashion trends or does it also discuss timeless fashion choices and building a versatile wardrobe?
+
+[nature & wildlife]
+1. Tone and Language: A subreddit's tone and language can range from informative and scientific to casual and humorous. 
+2. Depth of Discussion: The level of in-depth conversation and analysis in a subreddit can vary. 
+3. Engagement and Community Interaction: The level of user engagement and shared experiences can influence the social aspect of a subreddit. 
+1. Inclusivity and Respect: How welcoming and respectful is the community towards diverse perspectives, backgrounds, and identities?
+2. Quality and Accuracy of Information: How reliable and accurate are the discussions and shared information within the subreddit?
+3. Constructive Criticism: Are users able to provide feedback and criticism in a respectful and constructive manner?
+4. Supportiveness and Empathy: How empathetic and supportive is the community towards users seeking guidance or sharing personal experiences?
+5. Civility and Politeness: How civil and polite are users in their interactions and discussions?
+6. Original Content Creation: Does the subreddit encourage and support the creation of original content by users?
+7. Open-Mindedness: How receptive is the community to different viewpoints and perspectives, even if they differ from the majority opinion?
+8. Responsiveness: How active and responsive are the moderators and community members to user inquiries and concerns?
+9. Organized and Structured Discussions: Does the subreddit have a clear structure and guidelines for organizing discussions and posts?
+10. Contributing to Conservation: Does the subreddit actively promote awareness and action towards environmental conservation and wildlife causes?
+
+[parenting]
+1. Supportiveness: The degree to which the subreddit community provides emotional support, advice, and encouragement to parents.
+2. Inclusivity and Diversity: The degree to which the subreddit fosters inclusivity, respects diversity, and provides a platform for parents from various backgrounds and perspectives.
+3. Evidence-based Information: The degree to which the subreddit community values and shares reliable, evidence-based information on parenting topics.
+4. Respectful Communication: The degree to which the subreddit promotes respectful and constructive communication among its members.
+5. Non-Judgmental Attitude: The extent to which the subreddit fosters a non-judgmental environment where diverse parenting choices are respected.
+6. Informed Decision-making: The emphasis placed on providing information and resources to help parents make informed decisions about various parenting-related topics.
+7. Safe Space: The subreddit's commitment to creating a safe and inclusive space that prioritizes the emotional well-being of its members.
+8. Community Engagement: The level of active participation and engagement by subreddit members in discussions, sharing experiences, and helping others.
+9. Positive Reinforcement: The extent to which the subreddit emphasizes positive reinforcement and celebrates parenting achievements and milestones.
+10. Sharing Personal Stories: The encouragement and value placed on sharing personal stories, anecdotes, and experiences as a way to connect and support one another.
+11. Balanced Discussion: The efforts made by the subreddit to maintain a balanced and unbiased discussion on different parenting approaches and controversies.
+12. Empathy and Compassion: The degree to which empathy and compassion are demonstrated in the subreddit's interactions, particularly in response to challenging situations or difficult parenting experiences.
+13. Welcoming New Members: The subreddit's approach to welcoming and integrating new members into the community, particularly first-time parents seeking guidance and support.
+14. Balancing Perspectives: The subreddit's commitment to representing a wide range of perspectives and avoiding echo chambers by encouraging diverse opinions and experiences.
+
+[photography]
+1. Tone and Language:
+2. Constructive Feedback:
+3. Community Engagement:
+4. Diversity and Inclusion:
+1. Upvoting and Downvoting: The community's tendency to upvote or downvote posts and comments based on their quality, relevance, and adherence to subreddit rules.
+2. Respectful Critique: The level of respect and constructiveness in providing critiques and feedback on posted photographs.
+3. Self-Promotion: The acceptance or restriction of self-promotion, such as sharing personal photography websites or social media accounts.
+4. Content Curation: The level of moderation and curation regarding the type and quality of content allowed on the subreddit.
+5. Ethical Photography: Discussions on ethical practices, privacy concerns, and consent while taking and sharing photographs.
+6. Gear Focus: The emphasis on discussing and sharing information about cameras, lenses, and other photography equipment.
+7. Professional Development: The availability of resources and discussions focused on advancing careers or making money through photography.
+8. Cross-Posting: The acceptance or discouragement of users sharing the same post across multiple photography-related subreddits.
+9. Genre Emphasis: The degree to which different photography genres (e.g., portrait, wildlife, fashion) are promoted and discussed within the subreddit.
+10. Collaboration Opportunities: The presence of opportunities for photographers within the community to collaborate on projects, exhibitions, or photo walks.
+
+[animals]
+1. Positive vibes and support: These subreddits generally have a positive and supportive atmosphere, with users often sharing heartwarming stories, cute pictures, and uplifting content. The community is likely to encourage and appreciate kindness towards animals and each other.
+2. Humor and friendly banter: Many of these subreddits incorporate humor and lighthearted banter. Users may engage in friendly debates about behaviors, breeds, or species, but in general, the tone remains light and playful.
+3. Respect for different opinions: While there may be disagreements regarding certain animal-related topics, the subreddits tend to foster an environment where different opinions and perspectives are respected. Users are often open to discussion and willing to learn from each other.
+4. Informative and educational: Several animal-specific subreddits, such as r/marinebiology, r/Entomology, and r/reptiles, tend to focus on sharing knowledge and educational content. Users are likely to contribute interesting facts, research findings, and engage in discussions about these topics.
+1. Inclusivity and diversity: How welcoming and inclusive is the subreddit towards users of different backgrounds and perspectives?
+2. Enforcement of community guidelines: How effective is the subreddit's moderation team in enforcing the subreddit rules and maintaining a positive environment?
+3. Responsiveness to inquiries: How helpful and responsive are users in answering questions or providing information to others?
+4. Original content creation: Does the subreddit encourage and support the creation of original animal-related content such as artwork, videos, or personal stories?
+5. Organization and categorization of posts: How well are posts categorized and organized in the subreddit to ensure easy navigation and content discoverability?
+6. Respect for animal welfare: To what extent does the subreddit prioritize and promote the well-being, ethical treatment, and responsible ownership of animals?
+7. Evidence-based discussions: How often are discussions backed by scientific evidence, research, or reliable sources in order to promote accurate information and knowledge sharing?
+8. Engagement and interactivity: How actively do users interact with each other's posts, leave comments, and engage in discussions or conversations?
+9. User-generated content curation: How effectively does the subreddit curate and present high-quality user-generated content, such as featured posts or weekly discussions?
+10. Respectful language and tone: How courteous and respectful are the users in their language and interactions, especially when discussing sensitive or controversial topics related to animals?
+
+[mental health]
+1. Supportiveness: This norm refers to the level of empathy, understanding, and encouragement displayed by the members towards each other. Are they providing emotional support and offering helpful advice?
+2. Respectful communication: Are the members treating each other with respect and courtesy, even when they have differing opinions or experiences? Do they avoid derogatory language or personal attacks?
+3. Validation and empathy: How well do members acknowledge and validate each other's experiences and emotions? Are they able to empathize with others and offer reassurance?
+4. Constructive advice and resources: Are members offering practical suggestions, sharing resources, or recommending professional help when needed? How helpful and actionable are the recommendations?
+5. Inclusivity and diversity: Is the subreddit inclusive and accepting of people from different backgrounds, identities, and perspectives? Are marginalized voices heard, and are efforts made to create a safe space for everyone?
+6. Stigma reduction: Does the subreddit actively work towards reducing the stigma associated with mental health conditions? Do members contribute to fighting misinformation and promoting understanding?
+7. Confidentiality: Is there an understanding and respect for privacy, with members avoiding sharing personal identifying information of others?
+8. Trigger warnings: Do members use trigger warnings appropriately to alert others of potentially distressing content and create a safer environment?
+9. Empowerment and agency: Are discussions focused on empowering individuals to take control of their mental health, make informed decisions, and advocate for themselves?
+10. Open-mindedness: Are members receptive to different ideas, perspectives, and experiences? Is there room for respectful discussion and exploration of alternative viewpoints?
+11. Self-disclosure: Do members feel comfortable sharing their own personal experiences and struggles with mental health? Is there a supportive environment for self-disclosure?
+12. Research and evidence-based information: Are discussions rooted in evidence-based knowledge and reliable sources? Is misinformation addressed and correct information promoted?
+13. Positive coping strategies: Are members encouraged to share and discuss healthy coping mechanisms, self-care practices, and strategies that have been beneficial to them?
+14. Mindfulness and self-reflection: Is there a focus on developing self-awareness, promoting mindfulness, and encouraging reflection on thoughts, emotions, and actions?
+15. Active listening: Are members actively engaged in listening to others and demonstrating understanding before responding? Is there an emphasis on validation and reflective responses?
+16. Accessibility: Are efforts made to ensure that information and resources are accessible to individuals with different abilities and/or language barriers, through accommodations and translations?
+
+[politics & current events]
+1. Tone and Civility: The level of respect and courtesy in discussions, including the use of polite language, avoidance of personal attacks, and constructive criticism.
+2. Partisanship and Bias: The degree to which discussions lean towards a particular political ideology or viewpoint, and the level of tolerance for differing opinions.
+3. Quality of Evidence: The expectation for providing accurate information and credible sources to support claims made during discussions.
+4. Open-mindedness: The willingness to consider alternative perspectives, engage in respectful debates, and challenge one's own beliefs.
+5. Moderation Policies: The effectiveness and consistency of subreddit moderation in enforcing rules, removing hate speech, and promoting healthy and balanced discussions.
+6. Echo Chambers: The extent to which the subreddit fosters a closed community where views and opinions are reinforced rather than critically examined.
+7. Memes and Humor: The use of satire, humor, and memes in expressing political opinions, and whether they add value to the overall discussion or detract from it.
+1. Fact-checking and Accuracy: The emphasis on verifying information and promoting factual accuracy in discussions.
+2. Inclusivity and Diversity: The encouragement of diverse voices, experiences, and perspectives to ensure a more inclusive dialogue.
+3. Empathy and Compassion: The promotion of understanding, empathy, and compassionate responses in discussions, especially when discussing sensitive or divisive topics.
+4. Avoidance of Conspiracy Theories: The encouragement to avoid promoting or endorsing baseless conspiracy theories and instead focus on evidence-based discussions.
+5. Analytical Thinking: The emphasis on critical thinking skills, logical reasoning, and evidence-based analysis in discussions.
+6. Source Evaluation: The expectation for users to critically evaluate the credibility and reliability of sources shared during discussions.
+7. Global Perspective: The encouragement to consider international perspectives and global implications of political events and policies.
+8. Personal Responsibility: The recognition of individual responsibility in shaping discussions and ensuring a productive and respectful environment.
+9. Engaging with Opposing Views: The willingness to engage with and understand opposing viewpoints, even if they differ significantly from one's own.
+10. Encouragement of Civic Engagement: The motivation to promote civic participation, encourage activism, and discuss ways to create positive change.
+
+[education & learning]
+1. Supportiveness: This dimension assesses the overall level of encouragement and helpfulness within the subreddit community towards learners. It includes factors such as willingness to answer questions, provide resources, and offer constructive feedback.
+2. Rigor/Depth: This dimension assesses the level of in-depth discussion and analysis that occurs within the subreddit. It considers the quality of explanations and the depth of knowledge shared.
+3. Positivity/Encouragement: This dimension assesses the level of positivity, praise, and encouragement present in the subreddit community, contributing to a supportive and motivating learning environment.
+4. Accuracy/Verifiability: This dimension evaluates the adherence to factual accuracy and the use of reliable sources within the subreddit.
+5. Inclusivity/Diversity: This dimension assesses the degree of inclusivity and diversity within the subreddit community, including the representation and respect for varied perspectives and backgrounds.
+6. Engagement/Activity: This dimension measures the level of engagement and activity within the subreddit, including the frequency of posts, comments, and discussions.
+7. Organization/Structure: This dimension evaluates the clarity of organization, structure, and categorization of content within the subreddit, helping users easily navigate and find relevant information.
+8. Innovation/Creativity: This dimension assesses the degree of innovative and creative approaches to education and learning within the subreddit, encouraging unconventional and engaging learning methods.
+9. Relevance/Applicability: This dimension evaluates the relevance and applicability of the knowledge shared within the subreddit to real-life situations and practical contexts.
+10. Openness to New Ideas/Constructive Criticism: This dimension measures the subreddit's willingness to explore and consider new ideas and constructive criticism, fostering growth and improvement.
+11. Respectful Debate/Disagreement: This dimension assesses the level of respectful debate and disagreement within the subreddit, promoting healthy discussions and the exchange of diverse opinions.
+12. Ethics/Ethical Considerations: This dimension evaluates the emphasis on ethical practices, including citation standards, intellectual property rights, and avoiding plagiarism within the subreddit.
+13. Professionalism/Expertise: This dimension assesses the level of professionalism and expertise demonstrated by contributors within the subreddit, providing reliable and accurate information.
+14. Interdisciplinary Perspective: This dimension evaluates the subreddit's engagement with interdisciplinary topics and the integration of knowledge from various fields to provide comprehensive insights.
+
+[motivation & inspiration]
+1. Supportive atmosphere: This norm focuses on creating a positive and encouraging environment for individuals seeking motivation and inspiration. Users engage in uplifting discussions, share success stories, and provide support to those facing challenges in their personal or professional lives. 
+2. Goal-setting and accountability: This norm emphasizes setting clear goals and holding oneself accountable for achieving them. Discussions might revolve around techniques for goal-setting, progress tracking, and sharing strategies to maintain accountability.
+3. Positivity and optimism: This norm encourages members to maintain a positive mindset and focus on the bright side of any situation, spreading optimism through their posts and comments.
+4. Non-judgmental and inclusive: This norm emphasizes the acceptance of diverse perspectives, experiences, and backgrounds, fostering a safe and inclusive space for discussions.
+5. Action-oriented: This norm encourages members to take practical steps towards their goals and offers strategies and resources to support action and progress.
+6. Empathy and compassion: This norm values empathy towards others' struggles and promotes compassionate understanding and support within the community.
+7. Science-backed advice: This norm focuses on sharing evidence-based research, studies, and expert advice related to motivation and self-improvement.
+8. Personal growth mindset: This norm emphasizes the importance of continuous learning, personal development, and embracing challenges as opportunities for growth.
+9. Striving for balance: This norm encourages individuals to pursue a well-rounded and balanced approach to motivation and self-improvement, considering physical, mental, and emotional well-being.
+10. Celebrating milestones and achievements: This norm fosters a culture of acknowledging and celebrating personal victories, no matter how big or small.
+11. Seeking accountability partnerships: This norm encourages users to find accountability partners within the community to support and hold each other responsible for meeting goals.
+12. Providing constructive feedback: This norm emphasizes the importance of offering constructive criticism and feedback when seeking advice or sharing progress, creating an environment conducive to growth.
+13. Avoiding gatekeeping: This norm discourages members from setting rigid standards or discouraging others based on their level of progress or perceived accomplishments.
+14. Cultivating gratitude: This norm promotes practicing gratitude and expressing appreciation within the community, recognizing the positive aspects of life and personal journeys.
+
+[cooking & recipe]
+1. Tone and Friendliness: This dimension rates the overall atmosphere and attitude of the subreddit. Are users generally respectful and helpful towards each other?
+2. Expertise Level: This dimension evaluates the depth of culinary knowledge and expertise within the subreddit community. Is it more beginner-friendly or focused on advanced culinary techniques?
+3. Diversity and Inclusivity: This dimension assesses how inclusive and diverse the subreddit community is in terms of cuisine styles, dietary restrictions, and cultural representation.
+4. Accessibility: How accessible and inclusive is the subreddit for users with different skill levels, budgets, and access to ingredients or equipment?
+5. Receptivity to New Ideas: How open is the community to innovative or unconventional approaches to cooking, recipes, and ingredients?
+6. Source Citing and Accuracy: How important is it for users to provide credible sources and accurate information when sharing recipes or culinary advice?
+7. Constructive Criticism and Feedback: How well does the community provide constructive criticism and feedback to help users improve their cooking skills and recipes?
+8. Collaboration and Recipe Sharing: To what extent do users collaborate, share recipes, and engage in food-related discussions beyond mere recipe exchanges?
+9. Cultural Appreciation and Sensitivity: How respectful and aware is the community regarding cultural appropriation or respectful representation of different cuisines and culinary traditions?
+10. User Engagement and Participation: How active is the community in terms of posting, commenting, upvoting, and engaging with each other's content?
+11. Presentation and Visual Appeal: To what degree do members emphasize presentation aesthetics and visually appealing dishes in their recipes or discussions?
+12. Realism and Practicality: How focused is the community on providing practical recipes and cooking tips that can be implemented in everyday life?
+13. Problem-Solving and Troubleshooting: How efficiently does the community address cooking-related queries and help users troubleshoot issues they face in the kitchen?
+
+[internet & technology trends]
+1. Tone and Language: This dimension assesses the general tone and language used in the subreddit discussions, ranging from formal and technical to casual and colloquial.
+2. Content Focus: This dimension evaluates the primary focus of the subreddit discussions, ranging from news and information to troubleshooting and support.
+3. Community Interaction: This dimension assesses the level of user engagement, collaboration, and support within the subreddit communities.
+4. Moderation Style: This dimension evaluates the level of moderation in the subreddit, ranging from strict and heavily regulated to more open and lenient approaches.
+5. Inclusivity and Respect: Assessing the level of inclusivity, respectful language, and tolerance towards diverse opinions and backgrounds within the subreddit.
+6. Depth of Discussion: Evaluating the depth and complexity of discussions held within the subreddit, ranging from surface-level conversations to in-depth analysis.
+7. Formatting and Presentation: Assessing the overall quality of formatting, post presentation, and adherence to subreddit-specific formatting rules.
+8. Original Content Creation: Evaluating the community's engagement in creating and sharing original content within the subreddit.
+9. Collaboration and Crowdsourcing: Assessing the level of collaborative problem-solving and collective intelligence in the subreddit, particularly in troubleshooting or information gathering.
+10. Humor and Sarcasm: Evaluating the prevalence and acceptance of humor, sarcasm, and witty remarks within the subreddit discussions.
+11. Source Credibility and Fact-Checking: Assessing the community's commitment to credible sources, fact-checking, and promoting accurate information.
+12. Academic/Professional Tone: Evaluating the extent to which discussions maintain an academic or professional tone, including the use of citation and formal language.
+13. Ethical Discussions: Assessing the subreddit's engagement in ethical debates surrounding internet and technology, such as privacy, AI ethics, or data usage.
+14. Memes and Internet Culture: Evaluating the incorporation of memes, references, and internet culture within discussions, indicating a shared understanding of online trends and humor.

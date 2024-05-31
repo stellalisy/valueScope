@@ -1,0 +1,242 @@
+Professionalism	Professionalism
+Politeness	Politeness
+Expertise-oriented	Expertise-oriented
+Helpfulness	Helpfulness
+Conciseness	Brevity
+Accessibility	Accessibility
+Source-based discussion	Factual
+Open-mindedness	Open-mindedness
+Skepticism	Skepticism
+Collaboration	Sharing
+Sarcastic Tone	Sarcasm
+Irony and Satire	Sarcasm
+Emphasis on Wordplay	Straightforwardness
+Memes as Communication	Humor
+Casual Language	Formality
+Memetic Repetition	Humor
+Comic Timing	Humor
+Gentle Teasing	Teasing
+Inside Jokes	Inside Jokes
+Social Validation of Humor	Humor
+Technical jargon	Jargon
+Problem-solving focus	Problem-solving
+Directness	Straightforwardness
+Respect for expertise	Expertise-oriented
+Critique and constructive feedback	Constructive Feedback
+Preference for evidence and sources	Factual
+Focus on functionality and features	Problem-solving
+Emphasis on open-source	Sharing
+Enthusiasm and fandom	Enthusiasm
+Helpfulness and camaraderie	Helpfulness
+Sarcasm	Sarcasm
+Sensationalism	Sensational
+Debating	Argumentativeness
+Informative	Helpfulness
+Speculation	Speculation
+Bias	Bias
+News sharing	Sharing
+Hyperbole	Exaggeration
+Upvoting/Downvoting	-
+Supportive	Supportiveness
+Constructive criticism	Constructive Feedback
+Expertise-driven	Expertise-oriented
+Transparency	Straightforwardness
+Optimization-oriented	Problem-solving
+Practicality-focused	Problem-solving
+Goal-setting	Problem-solving
+Diverse perspectives	Diverse Perspectives
+Anonymity	-
+Supportive Tone	Supportiveness
+Empowerment	Supportiveness
+Inclusiveness	Inclusiveness
+Importance of Communication	-
+Non-judgmental Attitude	Constructive Feedback
+Validation and Empathy	Empathy
+Constructive Criticism	Constructive Feedback
+Meme-driven humor	Humor
+Gaming preference wars	-
+Informative sharing	Sharing
+Reddit-specific slang	Formality
+Memes as cultural currency	Humor
+Gatekeeping	Sharing
+Gamer identity reinforcement	Storytelling
+Intense fan loyalty	Enthusiasm
+Trolling and irony	Sarcasm
+Game recommendations and opinions	Opinions
+Humor	Humor
+Analysis and speculation	Analysis
+Recommendations and reviews	Opinions
+Fan theories	Speculation
+Memes and references	Humor
+Debates and controversies	Argumentativeness
+Spoiler warnings	Spoiler
+Appreciation and praise	Supportiveness
+Criticism and analysis of the industry	Constructive Feedback
+References to source material	Factual
+Genre bias	Bias
+Passionate debates	Argumentativeness
+Memes and humor	Humor
+Personal anecdotes	Storytelling
+Recommendations	Sharing
+Cultural references	Diverse Perspectives
+Tolerance for diverse tastes	Inclusiveness
+Supportive atmosphere	Supportiveness
+Appreciation	Supportiveness
+Sharing Knowledge	Sharing
+Visual Focus	-
+Constructed Arguments	Argumentativeness
+Inspirational Discussions	-
+Recommending Tools and Resources	Sharing
+Positive Reinforcement	Supportiveness
+Appreciation for Variety	Inclusiveness
+Sharing Personal Experiences	Sharing
+Enthusiasm	Enthusiasm
+Positivity	Supportiveness
+Detailed descriptions	Brevity
+Supportive feedback	Supportiveness
+Sharing personal anecdotes	Storytelling
+Curiosity	Inquisitiveness
+Cultural diversity	Diverse Perspectives
+Appreciation for aesthetics	-
+Recipe sharing	Sharing
+Supportiveness	Supportiveness
+Expertise	Expertise-oriented
+Empathy	Empathy
+Goal-Oriented	Problem-solving
+Progress Updates	Factual
+Comprehensiveness	-
+Scientific Basis	Factual
+Body Positivity	Supportiveness
+Respectful disagreement	Politeness
+Supportive community	Supportiveness
+Storytelling	Storytelling
+Practicality	Problem-solving
+Adaptability	Problem-solving
+Genre Focus	-
+Author Engagement	Engagement
+Intellectual Discourse	Objectiveness
+Community Support	Supportiveness
+Literary Analysis	Objectiveness
+Trash-talking	Supportiveness
+Passionate fandom	Enthusiasm
+Statistical analysis	Analysis
+Inside jokes and memes	Inside Jokes
+Play-by-play analysis	Analysis
+Team loyalty	Enthusiasm
+Player evaluations	Analysis
+Game predictions	-
+Support for underdogs	Supportiveness
+Respect for referees and officials	Politeness
+Strict moderation	-
+Sharing knowledge	Sharing
+Appreciation for visual content	Supportiveness
+Supportive humor	Humor
+Narrative-driven discussions	Storytelling
+Period-specific interests	-
+Motivated engagement	Supportiveness
+Intellectual rigor	Expertise-oriented
+Citation and referencing	Factual
+Jargon and technical language	Jargon
+Lengthy responses	Brevity
+Analytical approach	Analysis
+Sarcasm and irony	Sarcasm
+Inclusion of counterarguments	Objectiveness
+Inquisitiveness and curiosity	Inquisitiveness
+Philosophical humor	Humor
+Technical Jargon	Jargon
+Collaborative Problem-Solving	Problem-solving
+Information Sharing	Sharing
+Code Sharing	Sharing
+Respect for Expertise	Expertise-oriented
+Open Source Advocacy	Sharing
+Clear and Concise Communication	Brevity
+Emphasis on Best Practices	Expertise-oriented
+Humor and Wit	Humor
+Helpfulness	Helpfulness
+Constructive feedback	Constructive Feedback
+Sharing achievements	Storytelling
+Attention to detail	-
+Step-by-step explanations	Helpfulness
+Respect for materials and tools	-
+Problem-solving	Problem-solving
+Appreciation for craftsmanship	Expertise-oriented
+Passionate discussions	Enthusiasm
+Trend awareness	?
+Detail-oriented	-
+Sharing personal experiences	Storytelling
+Brand and item recommendations	Sharing
+Practicality and functionality	Problem-solving
+Curiosity and learning	Inquisitiveness
+Support for stepping out of comfort zones	Supportiveness
+Descriptive language	Descriptiveness
+Exclamation and enthusiasm	Enthusiasm
+Curiosity and exploration	Inquisitiveness
+Photo analysis	Analysis
+Conservation awareness	?
+Appreciation for photography skills	Supportiveness
+Sharing Experiences	Storytelling
+Advice Giving	Sharing
+Respectful Disagreements	Politeness
+Inclusion of diverse perspectives	Inclusiveness
+Mediating conflicts	Inclusiveness
+Seek validation	-
+Parenting Milestone Celebrations	-
+Technical discussions	Objectiveness
+Sharing experiences	Storytelling
+Supportive environment	Supportiveness
+Artistic appreciation	Supportiveness
+Feedback exchange	Constructive Feedback
+Genre-specific discussions	Expertise-oriented
+Information sharing	Sharing
+Photo challenges	-
+Visual showcase	-
+Emotive language	Empathy
+Anthropomorphism	-
+Personal experiences and stories	Storytelling
+Expertise sharing	Sharing
+Awe and wonder	Supportiveness
+Pet appreciation	Supportiveness
+Respect and politeness	Politeness
+Validation	-
+Advice-giving	Sharing
+Trigger warnings	Inclusiveness
+Information-sharing	Sharing
+Encouragement	Supportiveness
+Stigma reduction	Inclusiveness
+Self-disclosure	Storytelling
+Supportive language	Supportiveness
+Polarization	Opinions
+Echo-chamber effect	Opinions
+Snark and satire	Sarcasm
+News consumption	Helpfulness
+Verbal aggression	Supportiveness
+Fact-checking	Factual
+Opinion-driven analysis	Opinions
+Bias acknowledgement	Objectiveness
+Diverse sources	Diverse Perspectives
+Structured discourse	Structured
+Coherence	Formality
+Academic tone	Professionalism
+Depth of analysis	Analysis
+Moderation adherence	-
+Openness to questions	Open-mindedness
+Personal Stories	Storytelling
+Empathy and Understanding	Empathy
+Goal-Oriented Language	Problem-solving
+Use of Quotes and Mantras	Factual
+Reflective Thinking	Thoughtful
+Action-Oriented Suggestions	Problem-solving
+Offering Resources	Sharing
+Openness to Vulnerability	Supportiveness
+Instructional language	Problem-solving
+Specificity	Descriptiveness
+Food presentation appreciation	-
+Ingredient substitution suggestions	-
+Cultural and regional diversity	Diverse Perspectives
+Positive reinforcement	Supportiveness
+Brevity	Brevity
+Clarity	Brevity
+Humor/Memes	Humor
+Respectful criticism	Politeness
+Upvoting	-
+Link sharing	Sharing

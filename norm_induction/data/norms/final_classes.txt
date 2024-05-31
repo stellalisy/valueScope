@@ -1,0 +1,34 @@
+Supportiveness,28
+Sharing,22
+Problem-solving,14
+Humor,13
+Storytelling,12
+Expertise-oriented,9
+Factual,8
+Constructive Feedback,7
+Enthusiasm,7
+Inclusiveness,7
+Politeness,6
+Helpfulness,6
+Brevity,6
+Sarcasm,6
+Diverse Perspectives,5
+Objectiveness,5
+Argumentativeness,4
+Empathy,4
+Inquisitiveness,4
+Straightforwardness,3
+Formality,3
+Jargon,3
+Professionalism,2
+Open-mindedness,2
+Inside Jokes,2
+Descriptiveness,2
+Accessibility,1
+Teasing,1
+Sensational,1
+Exaggeration,1
+Spoiler,1
+Engagement,1
+Structured,1
+Thoughtful,1

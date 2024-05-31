@@ -1,0 +1,359 @@
+[science]
+1. Professionalism: Comments on these subreddits often exhibit a professional tone and approach, focusing on evidence-based arguments and scientific accuracy.
+2. Politeness: Redditors commonly maintain a respectful and courteous tone, using polite language and avoiding personal attacks or offensive remarks.
+3. Expertise-oriented: Users respect and value the input of subject matter experts, often deferring to their knowledge and providing supporting evidence.
+4. Informativeness: Comments tend to be informative, providing explanations, examples, and references to back up claims or provide further resources for readers.
+5. Conciseness: Due to the platform's character limits, Redditors tend to be succinct in their comments, avoiding unnecessary verbosity.
+6. Accessibility: Users make an effort to explain complex scientific concepts in a way that is easy for non-experts to understand, using layman's terms and avoiding excessive jargon.
+7. Source-based discussion: In order to maintain accuracy and credibility, sources and citations are commonly used in discussions, supporting claims and facilitating further exploration.
+8. Open-mindedness: Discussions often encourage exploring different perspectives and considering alternative viewpoints, fostering a spirit of open-mindedness and intellectual curiosity.
+9. Skepticism: While respect for expertise is prevalent, comments often exhibit a healthy dose of skepticism, encouraging critical thinking and requesting evidence or clarification.
+10. Collaboration: Redditors frequently engage in collaborative discussions, building upon each other's ideas and fostering an environment of cooperative learning and inquiry.
+
+[humor]
+1. Sarcastic Tone: Comments often display a sarcastic tone, using irony and humor in a playful manner.
+2. Irony and Satire: Subreddits frequently employ irony and satire to highlight absurd or humorous elements of the topic.
+3. Emphasis on Wordplay: Users tend to appreciate clever and creative wordplay, with puns, double entendres, and linguistic humor being highly valued.
+4. Memes as Communication: Memes play a vital role as a form of expression and communication, often with shared symbols or references understood by the community.
+5. Casual Language: Comments frequently adopt a casual and informal language style, including slang, abbreviations, and meme-related terminology.
+6. Memetic Repetition: Popular phrases, catchphrases, or meme templates are often repeated throughout the comments section, contributing to a sense of camaraderie within the community.
+7. Comic Timing: There is an appreciation for well-timed humor, where comedic elements are placed strategically in the comments for maximum comedic effect.
+8. Gentle Teasing: Users engage in playful and light teasing, often poking fun at others or making self-deprecating jokes.
+9. Inside Jokes: Subreddits develop unique inside jokes and references that are familiar to the community and serve as a basis for humor.
+10. Social Validation of Humor: Comments that generate a significant number of upvotes indicate a collective agreement within the community on what is considered funny, providing social validation.
+
+[technology]
+1. Technical jargon: Subscribers commonly use specialized language and jargon related to technology, indicating a level of expertise and familiarity with the topic.
+2. Problem-solving focus: Discussions often revolve around troubleshooting and finding solutions, emphasizing a problem-solving approach.
+3. Directness: Comments tend to be straightforward and direct, aiming to provide concise information or ask pointed questions without excessive elaboration.
+4. Respect for expertise: There is a tendency to respect and value individuals with extensive technical knowledge and experience, often deferring to their opinions.
+5. Critique and constructive feedback: Constructive criticism is often provided to help others improve their technical skills or address flaws in their ideas, promoting a collaborative learning environment.
+6. Preference for evidence and sources: Credibility is important, and users often demand concrete evidence and sources to support claims or recommendations.
+7. Focus on functionality and features: Discussions tend to emphasize the practical aspects of technology, such as device functionality, software features, and compatibility.
+8. Emphasis on open-source: Subscribers frequently discuss and advocate for open-source technology, demonstrating a preference for transparency and community-driven collaboration.
+9. Enthusiasm and fandom: There is often a sense of enthusiasm and fandom, with individuals expressing passion for specific technologies and engaging in friendly debates or comparisons.
+10. Helpfulness and camaraderie: While occasional disagreements occur, the community typically displays a supportive and helpful attitude, offering assistance and guidance to fellow subscribers.
+
+[news]
+1. Sarcasm: Use of sarcastic remarks to express disagreement or criticize certain news or political views.
+2. Sensationalism: Tendency to exaggerate or highlight shocking aspects of news stories for attention and engagement.
+3. Debating: Active engagement in discussions with arguments, counterarguments, and attempts to persuade others.
+4. Informative: Sharing relevant facts, statistics, and reliable sources to support claims or statements.
+5. Speculation: Offering personal opinions and speculation about the potential outcomes, impacts, or motives behind news events.
+6. Politeness: Generally maintaining a courteous tone in discussions, even when disagreeing with others' opinions.
+7. Bias: Displaying a tendency to favor certain political ideologies or news sources, influencing the language and viewpoints expressed.
+8. News sharing: Sharing links to news articles and providing brief summaries or quotes to spark conversations.
+9. Hyperbole: Employing exaggerated language or expressions to make a point or convey strong emotions regarding a news topic.
+10. Upvoting/Downvoting: Utilizing the voting system to express agreement or disagreement with comments or to indicate their perceived relevance to the discussion.
+
+[personal finance]
+1. Informative: Users provide detailed information and explanations to help others understand personal finance concepts and strategies.
+2. Supportive: Commenters offer encouragement, advice, and emotional support to individuals struggling with financial situations.
+3. Constructive criticism: Users provide feedback and suggestions in a helpful manner to help others improve their financial decisions.
+4. Expertise-driven: Discussions are often influenced by individuals with extensive knowledge and experience in finance, with their insights carrying more weight.
+5. Transparency: Redditors willingly share their personal financial experiences, successes, and failures to provide relatable anecdotes and lessons.
+6. Skepticism: Users critically evaluate financial advice and recommendations, encouraging evidence-based decision-making.
+7. Optimization-oriented: Discussions often revolve around ways to optimize investments, expenses, and financial strategies for maximum returns.
+8. Practicality-focused: Commenters often emphasize the importance of actionable and realistic financial advice rather than speculative or impractical strategies.
+9. Goal-setting: Redditors frequently discuss setting financial goals and provide tips on creating and achieving them.
+10. Diverse perspectives: Users come from various backgrounds and financial situations, contributing to a rich and inclusive discussion around personal finance.
+
+[relationships]
+1. Anonymity: Redditors tend to maintain a level of anonymity, often using pseudonyms, which allows for more openness and honesty in discussing personal relationship matters.
+2. Supportive Tone: The communities generally promote a supportive and empathetic environment, where users express encouragement and offer advice to those seeking help or sharing experiences.
+3. Politeness: Redditors typically make an effort to communicate politely, using polite phrases, respectful language, and avoiding personal attacks or offensive language.
+4. Directness: Users tend to provide direct responses and straightforward advice, focusing on addressing the main issue rather than beating around the bush.
+5. Empowerment: There is an emphasis on self-improvement and personal growth, with users often encouraging others to take control of their own relationships and make informed decisions.
+6. Inclusivity: Discussion in these subreddits seeks to be inclusive and respectful of individuals of all genders, sexual orientations, and relationship dynamics.
+7. Importance of Communication: Communication is often highlighted as a key component of successful relationships, with users emphasizing the need for open, honest, and effective communication between partners.
+8. Non-judgmental Attitude: Redditors aim to create a non-judgmental space where individuals can freely discuss their relationship issues without fear of being shamed or criticized.
+9. Validation and Empathy: The communities place value on providing validation and empathy by acknowledging and understanding the emotions and experiences shared by others.
+10. Constructive Criticism: While being supportive, users don't shy away from offering constructive criticism when necessary to help individuals address their relationship challenges effectively.
+
+[gaming]
+1. Meme-driven humor: The use of memes and humorous references constitutes a major form of communication and interaction within these subreddits.
+2. Gaming preference wars: Discussions often revolve around platform preferences (PC vs console) or specific game titles, leading to passionate debates and occasional animosity.
+3. Informative sharing: Users frequently share gaming news, updates, and tips, creating an atmosphere of knowledge exchange.
+4. Reddit-specific slang: Common Reddit jargon, such as "upvote," "cake day," and "OP," is frequently utilized within comments, establishing a sense of community.
+5. Memes as cultural currency: Certain memes or references become ingrained in the subreddit's culture and are consistently used to bond or express opinions.
+6. Gatekeeping: Some users may express exclusionary behavior towards those they perceive as not "true" gamers or not adhering to specific gaming standards.
+7. Gamer identity reinforcement: Comments often reinforce a strong sense of gamer identity through shared experiences, anecdotes, or affirmations.
+8. Intense fan loyalty: Strong allegiance to specific gaming franchises or companies can be observed in comments, sometimes leading to confrontations or heated discussions.
+9. Trolling and irony: Users may employ sarcasm, irony, or trolling as a means of communication, often resulting in humorous or provocative interactions.
+10. Game recommendations and opinions: Discussions frequently revolve around gaming recommendations, personal opinions on game quality, or suggestions for future improvements.
+
+[movies & tv shows]
+1. Humor: Comments often include humorous remarks, puns, or references to catchphrases from the movies or TV shows, creating a lighthearted and entertaining atmosphere.
+2. Analysis and speculation: Users engage in in-depth discussions, analyzing plotlines, characters, and hidden details, as well as speculating about upcoming episodes or movies.
+3. Recommendations and reviews: Users frequently share their recommendations and review different movies and TV shows, sparking conversations and providing insights for others.
+4. Fan theories: The subreddits involve active participation in generating fan theories and discussing their plausibility, encouraging creative and imaginative discussions.
+5. Memes and references: Users often sprinkle their comments with pop-culture references, memes, and inside jokes, contributing to a sense of community and shared experiences.
+6. Debates and controversies: Controversial topics, such as casting choices or plot developments, spark debates among users, resulting in heated discussions.
+7. Spoiler warnings: Due to the nature of the topics, users frequently use spoiler tags or warnings to ensure others are not inadvertently exposed to spoilers.
+8. Appreciation and praise: Users frequently express their admiration and praise for specific movie scenes, TV show moments, or actors, fostering a positive and supportive environment.
+9. Criticism and analysis of the industry: Users discuss the broader film and television industry, including issues like representation, diversity, and creative choices made by producers and directors.
+10. References to source material: Discussions often bring up comparisons between the adapted material and its source, such as books or comics, exploring differences and similarities.
+
+[music]
+1. Informative sharing: Users frequently share new music releases, upcoming events, and lesser-known artists, promoting a culture of musical discovery.
+2. Constructive criticism: Discussions often include thoughtful critiques of music, encouraging growth and improvement within the community.
+3. Genre bias: Subreddits dedicated to specific genres, such as r/hiphopheads and r/classicalmusic, foster discussions focused on the specific attributes and nuances of their respective genres, leading to distinct conversational norms.
+4. Passionate debates: Strong opinions and passionate discussions can be observed, especially in subreddits like r/Kanye, where differing views on artistry and music spark intense debates.
+5. Memes and humor: Subreddits like r/hiphopheads and r/indieheads embrace humor and memetic expressions related to music, allowing for a lighthearted and fun environment.
+6. Personal anecdotes: Users often share personal stories about how music has impacted their lives, contributing to a sense of community and emotional connection.
+7. Recommendations: Requesting and providing recommendations for specific songs, albums, or playlists is a common norm, showcasing the collaborative nature of these subreddits.
+8. Cultural references: The use of cultural references, such as lyrics, album covers, or artist backgrounds, is prevalent, demonstrating shared knowledge and creating meaningful connections.
+9. Tolerance for diverse tastes: Despite having niche subreddits like r/EDM and r/classicalmusic, there is an overall acceptance and appreciation for diverse musical tastes, fostering an inclusive community.
+10. Supportive atmosphere: Positive and encouraging comments are often present, with users showing admiration for each other's musical skills, creativity, and passion.
+
+[art & design]
+1. Constructive Criticism: Users tend to provide feedback and suggestions for improvement rather than outright negative comments.
+2. Appreciation: Subscribers express admiration and praise for the artwork or design showcased.
+3. Sharing Knowledge: Users share their expertise, tips, and tricks related to art and design.
+4. Visual Focus: Emphasis is placed on visual content, with comments often discussing composition, techniques, or aesthetics.
+5. Constructed Arguments: Debates are typically conducted in a respectful manner, with users presenting well-reasoned arguments and supporting evidence.
+6. Inspirational Discussions: Users discuss sources of inspiration, their creative process, and share motivational stories.
+7. Recommending Tools and Resources: Redditors suggest useful tools, materials, online resources, or tutorials to fellow artists and designers.
+8. Positive Reinforcement: Encouragement and support are frequently provided to those who are just starting or seeking improvement in their artistic journey.
+9. Appreciation for Variety: Various forms of art and design styles are valued and respected, fostering inclusivity and open-mindedness.
+10. Sharing Personal Experiences: Subscribers often share personal anecdotes related to art and design, allowing for a sense of community and shared experiences.
+
+[food]
+1. Enthusiasm: Commenters in these food-related subreddits often express excitement and passion for different dishes, ingredients, and cooking techniques.
+2. Positivity: The community tends to encourage and promote positivity, with commenters offering compliments and support for others' culinary achievements.
+3. Detailed descriptions: Users commonly provide detailed descriptions of their recipes, techniques, and experiences to facilitate understanding and replication.
+4. Supportive feedback: Commenters often provide constructive criticism, helpful tips, and suggestions to improve recipes or cooking skills.
+5. Sharing personal anecdotes: Users frequently share personal stories or anecdotes related to the dish or recipe being discussed, creating a sense of community and connection.
+6. Curiosity: The community exhibits a strong sense of curiosity, frequently asking questions about ingredients, techniques, or variations to expand their culinary knowledge.
+7. Humor: A light-hearted and humorous tone is often present in comments, adding entertainment value and creating a welcoming atmosphere.
+8. Cultural diversity: Commenters from diverse cultural backgrounds share their traditional dishes and cooking methods, promoting understanding and appreciation for different cuisines.
+9. Appreciation for aesthetics: Subreddits like r/foodporn prioritize visually appealing food presentations, leading to comments that appreciate the aesthetic qualities of the dishes.
+10. Recipe sharing: Users readily share recipes, often including detailed instructions and ingredient lists, fostering a sense of community collaboration.
+
+[fitness & health]
+1. Supportiveness: Commenters in these fitness and health subreddits show a norm of providing encouragement and positive reinforcement to each other's goals and achievements.
+2. Expertise: There is a norm of relying on and seeking advice from individuals with knowledge and experience in fitness and health-related matters.
+3. Constructive Criticism: It is common to find constructive feedback and suggestions for improvement in the comments, emphasizing the importance of continuous learning and growth.
+4. Empathy: Commenters often display empathy and understanding towards each other's struggles and challenges, creating a supportive atmosphere.
+5. Goal-Oriented: Discussions commonly revolve around setting and achieving fitness goals, emphasizing commitment and determination.
+6. Sharing Personal Experiences: There is a norm of sharing personal stories and experiences, allowing for connection and learning from others' journeys.
+7. Progress Updates: Regularly updating the community on their progress is common, fostering motivation and accountability.
+8. Comprehensiveness: Comments often provide detailed and comprehensive responses, addressing various aspects of fitness and health concerns.
+9. Scientific Basis: There is a tendency towards seeking evidence-based information and scientific explanations in discussions on these subreddits.
+10. Body Positivity: Promoting a healthy body image and acceptance of diverse body types is encouraged, contributing to a supportive and inclusive environment.
+
+[travel]
+1. Positivity: Comments often express excitement, admiration, and encouragement towards travel experiences and destinations.
+2. Expertise: Users frequently share detailed knowledge, tips, and advice about various aspects of travel.
+3. Respectful disagreement: While viewpoints may differ, comments generally maintain a respectful tone and engage in constructive discussions without resorting to hostility.
+4. Curiosity: Users frequently ask questions to gather insights, recommendations, and engage in meaningful conversations.
+5. Supportive community: Comments often offer support and reassurance to those seeking advice or sharing personal travel stories.
+6. Open-mindedness: Users exhibit a willingness to learn from different perspectives and embrace cultural diversity.
+7. Storytelling: Users share captivating travel anecdotes and experiences, often accompanied by vivid descriptions.
+8. Practicality: Comments focus on providing practical information and solutions to common travel challenges or hurdles.
+9. Inclusivity: Discussions encompass a wide range of travel styles, budgets, and priorities, aiming to be accessible and welcoming to everyone.
+10. Adaptability: Comments often showcase the ability to adapt travel plans and adjust expectations based on unforeseen circumstances or changing situations.
+
+[books]
+1. Positivity: Comments often exhibit a general sense of enthusiasm, admiration, and appreciation for books and authors.
+2. Expertise: There is a perceived value in sharing deep knowledge and insights about books, showcasing a level of expertise within the community.
+3. Recommendations: Commenters frequently engage in providing tailored book recommendations, offering personalized suggestions based on specific preferences or criteria.
+4. Constructive Criticism: While criticisms might arise, they tend to be constructive and focused on specific aspects of a book, encouraging thoughtful discussions.
+5. Genre Focus: Different subreddits highlight specific genres, leading to discussions that are centered around these genres and their respective tropes, themes, and styles.
+6. Inclusivity: The community strives to be inclusive, incorporating diverse voices and perspectives, fostering discussions that acknowledge and respect various cultural backgrounds.
+7. Author Engagement: Posts often involve interactions with authors, including Q&A sessions, book signings, or discussions about an author's work.
+8. Intellectual Discourse: Discussion threads frequently manifest intellectually driven conversations, analyzing complex themes, literary techniques, and ideas presented in books.
+9. Community Support: Members often engage in supportive exchanges, offering encouragement, empathy, and understanding towards fellow readers and writers.
+10. Literary Analysis: Comments often delve into the analysis and interpretation of literary works, exploring symbolism, character development, plot structures, and other narrative elements.
+
+[sports]
+1. Trash-talking: Commenters engage in playful banter and friendly rivalry, often aiming to one-up each other with clever insults or sarcastic remarks.
+2. Passionate fandom: Users express intense devotion and enthusiasm for their favorite teams or players, displaying a strong emotional investment.
+3. Statistical analysis: Discussions frequently involve the use of data, stats, and analytics to support arguments and provide evidence-based insights.
+4. Inside jokes and memes: Commenters reference popular sports-related memes or catchphrases, creating a sense of belonging and shared humor within the community.
+5. Play-by-play analysis: Users provide detailed descriptions or breakdowns of specific plays or moments from games, emphasizing tactical understanding and strategic analysis.
+6. Team loyalty: Commenters align themselves with a specific team, often defending their team even in the face of criticism or negative comments.
+7. Player evaluations: Discussions revolve around assessing and critiquing players' performances, both positively and negatively, focusing on skill levels, consistency, and potential.
+8. Game predictions: Users frequently make predictions about upcoming games or tournaments, speculating on outcomes and sharing their thoughts on potential strategies.
+9. Support for underdogs: The community often rallies behind and expresses admiration for teams or players seen as underdogs, celebrating their achievements and resilience.
+10. Respect for referees and officials: Despite occasional disagreements, the community generally recognizes and acknowledges the decisions made by referees and officials, keeping debates within reasonable boundaries.
+
+[history]
+1. Respect for expertise: These subreddits generally value well-researched and accurate historical information, and comments tend to exhibit respect for subject matter experts and academic sources.
+2. Strict moderation: Subreddits like r/AskHistorians have strict guidelines to maintain high-quality discussions, which results in more elaborate and well-thought-out comments.
+3. Constructive criticism: Norms of offering thoughtful criticisms and corrections to historical inaccuracies or misleading claims are commonly seen.
+4. Sharing knowledge: Redditors often engage in sharing interesting historical facts and insights, promoting a sense of collective learning within the community.
+5. Appreciation for visual content: Subreddits like r/historyporn and r/HistoryMemes focus on sharing captivating historical images or humorous historical memes, showcasing a preference for visually engaging content.
+6. Supportive humor: Witty and humorous comments are common in history-related subreddits, with a tendency to use humor to engage and educate.
+7. Passionate debates: A norm of passionate debates can be observed, with users engaging in discussions about various historical events, interpretations, and controversies.
+8. Narrative-driven discussions: Users often enjoy sharing and discussing captivating historical narratives, highlighting the appeal of storytelling within historical contexts.
+9. Period-specific interests: Subreddits like r/ancientgreece and r/AmericanHistory demonstrate interest in particular historical periods, resulting in discussions centered around specific timeframes.
+10. Motivated engagement: There is a general norm of active participation and engagement, with users motivated to contribute their knowledge and perspectives to enrich historical conversations.
+
+[philosophy]
+1. Intellectual rigor: Subreddits in this topic tend to have a norm of engaging in sophisticated debates and discussions that demonstrate a high level of intellectual rigor.
+2. Respectful disagreement: Despite the intensity of debates, there is often an expectation for participants to engage respectfully even when disagreeing with others.
+3. Citation and referencing: These subreddits encourage the use of citations and references to support arguments and claims, highlighting the importance of academic rigor.
+4. Jargon and technical language: Given the nature of the subject matter, there is a prevalence of jargon and technical language, which is generally accepted and understood within these communities.
+5. Lengthy responses: Participants often provide detailed and lengthy responses, as philosophical discussions require thorough analyses and explanations.
+6. Analytical approach: The norm of approaching topics with critical analysis is prevalent, where comments often deconstruct arguments or ideas to provide deeper insights.
+7. Sarcasm and irony: Some subreddits exhibit a sub-norm where sarcasm and irony are employed to critique or mock certain philosophical concepts or arguments.
+8. Inclusion of counterarguments: Participants are expected to engage with counterarguments, providing alternative perspectives and challenging their own views for a more comprehensive discussion.
+9. Inquisitiveness and curiosity: Frequently seen are inquiries and comments that explore the underlying assumptions and consequences of various philosophical ideas, reflecting a curiosity to delve deeper into the subject matter.
+10. Philosophical humor: A lighthearted norm of using jokes and memes related to philosophical concepts or thinkers can be found in some subreddits, providing a sense of camaraderie and levity among participants.
+
+[coding & programming]
+1. Technical Jargon: Comments are filled with technical terms and vocabulary specific to coding and programming languages.
+2. Constructive Criticism: Norm of providing feedback and suggestions in a helpful and constructive manner to assist fellow programmers.
+3. Collaborative Problem-Solving: Community members frequently engage in discussions to collectively find solutions to coding challenges.
+4. Information Sharing: Users often share resources, tutorials, and links related to coding and programming to assist others in their learning process.
+5. Code Sharing: Programmers frequently share snippets of their code to seek feedback or help troubleshoot issues.
+6. Respect for Expertise: Norm of showing respect and deference to experienced programmers who provide guidance or offer expert advice.
+7. Open Source Advocacy: Encouragement of open-source programming methodologies and discussions on related topics.
+8. Clear and Concise Communication: Norm of expressing ideas or asking questions in a concise and understandable manner.
+9. Emphasis on Best Practices: Discussions often revolve around following industry-standard practices, conventions, and efficient coding techniques.
+10. Humor and Wit: Users frequently employ humor or witty remarks related to programming concepts or coding challenges to create an engaging and enjoyable atmosphere.
+
+[diy & crafts]
+1. Helpfulness: Redditors in DIY & Crafts subreddits often display a norm of offering detailed assistance and guidance to users seeking help with their projects.
+2. Constructive feedback: Members of these subreddits adhere to a norm of providing constructive criticism and suggestions to improve projects, promoting a growth mindset.
+3. Inclusivity: There is a prevalent norm of welcoming and supporting individuals from diverse backgrounds and skill levels, fostering an inclusive and supportive community.
+4. Sharing achievements: Subscribers frequently share their completed projects to celebrate their accomplishments and inspire others, contributing to a positive and encouraging atmosphere.
+5. Attention to detail: The community exemplifies a norm of appreciating and discussing the intricate details, techniques, and materials used in DIY and craft projects.
+6. Step-by-step explanations: A common norm is to include detailed step-by-step explanations or tutorials for others to follow, emphasizing the importance of clear communication.
+7. Respect for materials and tools: There is a shared norm of treating materials, tools, and the environment with respect and care to ensure safety and sustainability.
+8. Problem-solving: Redditors adhere to a norm of actively engaging in problem-solving discussions, troubleshooting issues, and brainstorming creative solutions.
+9. Appreciation for craftsmanship: A norm in DIY & Crafts subreddits is the appreciation and admiration for skillful craftsmanship, encouraging members to showcase their expertise.
+10. Passionate discussions: Members exhibit a norm of engaging in passionate and enthusiastic discussions about various DIY projects, fostering a sense of excitement and inspiration within the community.
+
+[fashion]
+1. Positivity: Comments on fashion subreddits tend to be predominantly positive, offering compliments and encouragement.
+2. Constructive criticism: Users often provide advice and suggestions for improving fashion choices, focusing on constructive feedback rather than harsh criticism.
+3. Inclusivity: Subreddits promote inclusivity, welcoming fashion enthusiasts of different genders, body types, and styles.
+4. Trend awareness: Discussions often revolve around current fashion trends, with users sharing insights and opinions on the latest styles.
+5. Detail-oriented: Redditors pay attention to small details in fashion, discussing the nuances of fabric quality, fit, and accessory choices.
+6. Sharing personal experiences: Users frequently share their own fashion-related stories and experiences, fostering a sense of community and relatability.
+7. Brand and item recommendations: Discussions often involve users recommending specific brands, designers, and items that align with the community's fashion preferences.
+8. Practicality and functionality: Fashion discussions sometimes address practical aspects such as comfort, durability, and versatility in clothing choices.
+9. Curiosity and learning: Users actively seek knowledge on fashion trends, history, and terminology, often asking questions and engaging in educational conversations.
+10. Support for stepping out of comfort zones: Redditors encourage others to explore new styles and experiment with fashion choices, promoting self-expression and growth.
+
+[nature & wildlife]
+1. Positivity: The comments generally express admiration, joy, and appreciation towards the subject matter, emphasizing the beauty of nature and wildlife.
+2. Informative: Users provide detailed explanations, identification, and knowledgeable insights about the species or terrain being discussed.
+3. Descriptive language: Commenters often use vivid, expressive language to paint a picture of the natural scene or describe the behavior and characteristics of animals and plants.
+4. Exclamation and enthusiasm: There is a prevalence of exclamatory expressions and enthusiastic tones, reflecting the excitement and awe provoked by nature and wildlife.
+5. Supportive community: Comment sections frequently contain encouraging and uplifting words towards fellow users, sharing common interests and fostering a sense of camaraderie.
+6. Curiosity and exploration: Users frequently ask questions, seeking to learn more or seeking guidance in identifying various species.
+7. Photo analysis: Comments may focus on analyzing and appreciating the composition, lighting, or other aspects of the posted photographs.
+8. Conservation awareness: Conversations often revolve around environmental conservation, raising awareness about protecting natural habitats and endangered species.
+9. Appreciation for photography skills: Compliments for the quality of photographs, techniques used, and overall artistic value are common.
+10. Storytelling: Users may share personal anecdotes, experiences, or wildlife encounters, enriching discussions with heartfelt narratives.
+
+[parenting]
+1. Supportive Tone: Comments display a general attitude of compassion, encouragement, and empathy towards fellow parents.
+2. Sharing Experiences: Members commonly share personal anecdotes and stories to provide insight or relate to others' parenting challenges.
+3. Advice Giving: A norm of offering suggestions, strategies, and tips to fellow parents seeking guidance.
+4. Respectful Disagreements: Even in disputes, there is an expectation of maintaining respectful dialogue while discussing differing opinions.
+5. Inclusion of diverse perspectives: Encouragement of participation from various types of parents (single, foster, stay-at-home, working) to foster a sense of inclusivity.
+6. Mediating conflicts: Willingness to step in and resolve conflicts or disagreements between members in a diplomatic manner.
+7. Non-judgmental Attitude: Members strive to refrain from passing judgment and embrace understanding, acknowledging that parenting choices may differ.
+8. Seek validation: A norm of seeking reassurance and validation from fellow parents regarding feelings, decisions, and experiences.
+9. Parenting Milestone Celebrations: A shared norm of celebrating parenting milestones, showcasing achievements, and seeking positive reinforcement.
+10. Information Sharing: Members actively share articles, research, and relevant resources to educate and help others stay informed on parenting topics.
+
+[photography]
+1. Constructive criticism: Users provide feedback and suggestions to fellow photographers, focusing on improving their skills and techniques.
+2. Technical discussions: Subreddits discuss equipment, camera settings, and post-processing techniques in detail, emphasizing the technical aspects of photography.
+3. Sharing experiences: Redditors share personal stories and experiences related to their photography journeys, fostering a sense of community.
+4. Supportive environment: The community encourages and supports photographers at all skill levels, promoting a positive and non-judgmental atmosphere.
+5. Artistic appreciation: Users engage in discussions about the artistic aspects of photography, discussing composition, lighting, and visual storytelling.
+6. Feedback exchange: Subreddits often encourage users to provide feedback on each other's work and engage in mutual critique sessions.
+7. Genre-specific discussions: Different subreddits within the topic cater to specific photography genres, such as astrophotography, street photography, and landscape photography, allowing users to delve deeper into their areas of interest.
+8. Information sharing: Redditors share tutorials, articles, and online resources to help other photographers expand their knowledge and skills.
+9. Photo challenges: Users participate in periodic photo challenges or assignments, encouraging interaction and fostering creativity within the community.
+10. Visual showcase: Subreddits serve as platforms for users to showcase their best work, allowing for admiration and discussion around specific photographs.
+
+[animals]
+1. Positivity: The comments in these subreddits tend to be overwhelmingly positive and focused on admiration for animals and their behavior.
+2. Emotive language: Many comments express strong emotions, often using excessive adjectives and exclamation marks to convey excitement or joy.
+3. Anthropomorphism: Users frequently assign human traits and emotions to animals, often referring to them as "cute," "brave," or "mischievous."
+4. Humor: Comments often incorporate humor, including playful puns, witty remarks, or humorous anecdotes related to the animals featured in the posts.
+5. Empathy: Users often express empathy towards animals, particularly those in distress, and provide support or encouragement to owners or caretakers in challenging situations.
+6. Personal experiences and stories: Comments often include personal anecdotes or stories about similar animals, offering a sense of relatability and fostering community engagement.
+7. Expertise sharing: Within more specialized subreddits like r/marinebiology or r/Entomology, users often share their knowledge and expertise about specific animal species, offering explanations, identification, or insights.
+8. Awe and wonder: Many comments express a sense of awe and wonder about the animal kingdom, often using phrases like "nature's beauty" or "amazing creatures."
+9. Pet appreciation: Users frequently share stories and photos of their own pets, creating a sense of camaraderie and appreciation for pet ownership.
+10. Respect and politeness: Generally, users maintain a respectful tone, showing appreciation for diverse viewpoints and refraining from personal attacks or offensive language.
+
+[mental health]
+1. Empathy: Redditors commonly express understanding, compassion, and support for others' struggles.
+2. Validation: Users often validate the experiences and feelings shared by others, creating a supportive environment.
+3. Advice-giving: Members frequently offer tips, suggestions, and personal experiences as a means of supporting others.
+4. Trigger warnings: Sensitivity towards potentially triggering content is observed, with users often providing warnings for graphic or intense discussions.
+5. Information-sharing: Sharing informative resources, techniques, and strategies related to mental health is a common norm in these subreddits.
+6. Anonymity: Due to the sensitive nature of the topic, users generally maintain a level of anonymity to protect their privacy and encourage open sharing.
+7. Encouragement: Encouraging words, motivational quotes, and positive messages are frequently shared to uplift and inspire others.
+8. Stigma reduction: A shared effort to challenge mental health stigma is apparent, with users advocating for greater understanding and acceptance.
+9. Self-disclosure: Redditors openly discuss their personal struggles and experiences, fostering a sense of vulnerability and connection.
+10. Supportive language: Users use empathetic and gentle language, often including phrases like "I understand," "you're not alone," and "take care of yourself."
+
+[politics & current events]
+1. Polarization: Commenters in these subreddits often exhibit strong opinions that align with their political beliefs, resulting in heated debates and little room for middle ground.
+2. Echo-chamber effect: Users tend to join communities that reinforce their existing beliefs, leading to a tendency of like-minded individuals interacting and reinforcing their shared perspectives.
+3. Snark and satire: Subreddits like r/politicalhumor are known for their sarcastic and satirical commentary on politics, reflecting a norm of humorously critiquing political figures and events.
+4. News consumption: Users often share and discuss news articles, indicating a norm of being up-to-date with current events and valuing factual information.
+5. Verbal aggression: The discussions can turn aggressive, with commenters using strong language, personal attacks, and insults towards those with differing opinions.
+6. Fact-checking: There is an active expectation for users to fact-check claims made by others and provide evidence to support their arguments.
+7. Opinion-driven analysis: Commenters frequently express their subjective interpretations of political events, analyzing and offering insights from their own perspectives.
+8. Bias acknowledgement: Users are often conscious of their own biases and may preemptively disclose them to establish transparency in their arguments.
+9. Anonymity: Many users choose to remain anonymous, providing them with the freedom to express controversial opinions without fear of repercussion.
+10. Diverse sources: Users often share articles and news from a variety of websites and sources, reflecting a norm of seeking multiple perspectives on political events.
+
+[education & learning]
+1. Information sharing: Subreddit discussions prioritize sharing educational resources, tips, and knowledge related to the topic.
+2. Structured discourse: Comments often follow a structured format, such as providing explanations, clarifications, or step-by-step instructions.
+3. Coherence: Contributors strive to maintain logical and cohesive discussions, ensuring that their comments are relevant to the topic at hand.
+4. Academic tone: Many comments adopt a formal and informative tone, resembling academic writing.
+5. Politeness: Contributors generally use polite language and show respect for others' opinions, even when disagreements arise.
+6. Source-based discussion: Comments often reference external sources, such as scientific papers, textbooks, or reputable websites to support their claims.
+7. Depth of analysis: Discussions tend to delve into complex concepts, theories, and in-depth explanations.
+8. Moderation adherence: Community members adhere to subreddit rules and guidelines enforced by moderators, which helps maintain a respectful and informative atmosphere.
+9. Openness to questions: Users are encouraged to ask questions freely, and community members willingly provide detailed explanations and answers.
+10. Supportiveness: Commenters are generally supportive of one another, offering encouragement, suggestions, and guidance for further learning.
+
+[motivation & inspirational]
+1. Supportive Tone: The comments tend to be encouraging and uplifting, providing emotional support and motivation.
+2. Positive Reinforcement: Users often give praise and recognition for achievements and progress.
+3. Personal Stories: Sharing personal experiences and anecdotes to inspire and connect with others is common.
+4. Empathy and Understanding: Commenters show sympathy and understanding towards struggles and setbacks shared by others.
+5. Goal-Oriented Language: The comments frequently focus on setting and achieving specific goals.
+6. Use of Quotes and Mantras: Users often cite motivational quotes, mantras, and affirmations to inspire and reinforce positive thinking.
+7. Reflective Thinking: Discussions frequently involve self-reflection and introspection for personal growth.
+8. Action-Oriented Suggestions: Practical tips and advice for taking steps towards personal improvement are commonly offered.
+9. Offering Resources: Users share helpful resources, such as books, blog articles, or videos to aid in personal development.
+10. Openness to Vulnerability: The community encourages sharing vulnerabilities and challenges to foster growth and support.
+
+[cooking & recipes]
+1. Politeness: Users tend to exhibit politeness by using polite language, expressing gratitude, and maintaining a respectful tone towards others' contributions.
+2. Instructional language: Comments often include step-by-step instructions, tips, and techniques to guide others in cooking and recipe-related discussions.
+3. Sharing personal experiences: Redditors commonly share personal anecdotes and experiences related to the recipe or cooking technique being discussed.
+4. Supportive atmosphere: Users frequently offer encouragement, praise, and constructive feedback to others' cooking endeavors.
+5. Recipe sharing: Subreddit users frequently share their own recipes, variations, and modifications to existing recipes, fostering a collaborative environment.
+6. Specificity: Comments often include specific measurements, cooking times, and ingredient recommendations to ensure accuracy and reproducibility.
+7. Food presentation appreciation: Commenters often express appreciation for the visual presentation and aesthetic appeal of dishes showcased in pictures or descriptions.
+8. Ingredient substitution suggestions: Users often provide alternative ingredient suggestions to accommodate various dietary restrictions or personal preferences.
+9. Cultural and regional diversity: Discussions commonly revolve around sharing recipes and culinary traditions from diverse cultures and regional cuisines.
+10. Positive reinforcement: Users frequently provide affirmation and positive feedback for successful recipe attempts, encouraging further participation in the community.
+
+[internet & technology trends]
+1. Brevity: Comments tend to be concise and to the point, focusing on providing information or asking specific questions.
+2. Informative: Users seek and provide detailed explanations, updates, and insights on various internet and technology trends.
+3. Expertise: There is an expectation of knowledgeable and authoritative contributions from users with expertise in the field.
+4. Clarity: Clear and well-structured comments are preferred, as users strive to communicate complex technical concepts effectively.
+5. Humor/Memes: Occasional use of humor and memes to engage and entertain the community within the context of internet and technology trends.
+6. Problem-solving: Users actively participate in assisting each other by offering troubleshooting advice and solutions to technical issues.
+7. Respectful criticism: Constructive feedback and critiques are often shared to foster learning and improvement in the technology domain.
+8. Upvoting: Popular opinions, useful information, or well-articulated insights are upvoted, contributing to a sense of community agreement.
+9. Curiosity: Users often ask questions to seek clarification, further understanding, or to uncover the latest internet and tech trends.
+10. Link sharing: Regular sharing of relevant articles, tools, and resources to keep the community updated and enhance collective knowledge.
