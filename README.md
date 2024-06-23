@@ -44,7 +44,7 @@ This project is licensed under the MIT License.
 If you use VALUEscope in your research, please consider citing our work:
 
 ```bibtex
-@inproceedings{yourcitationkey,
+@inproceedings{chan2024valuescope,
     title={VALUEscope: Unveiling Implicit Norms and Values via Return Potential Model of Social Interactions},
     author={Chan Young Park and Shuyue Stella Li and Hayoung Jung and Svitlana Volkova and Tanu Mitra and David Jurgens and Yulia Tsvetkov},
     year={2024},
