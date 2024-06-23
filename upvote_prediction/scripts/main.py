@@ -40,6 +40,7 @@ def get_args():
     parser.add_argument("-lr", "--learning_rate", type=float, default=1e-5)
     parser.add_argument("--time", type=str, default=None)
     parser.add_argument("--author", type=str, default=None)
+    parser.add_argument("--nopost", action="store_true")
     parser.add_argument("--max_score_range", type=int, default=200)
     parser.add_argument("--num_epochs", type=int, default=1)
     parser.add_argument("--data_dir", type=str, default="/gscratch/argon/chanyoun/reddit-norms/style_transfer")
@@ -51,7 +52,9 @@ def get_args():
     parser.add_argument("--filter", action="store_true")
     parser.add_argument("--predict", action="store_true")
     parser.add_argument("--run_key", type=str, default=None)
-    parser.add_argument("--processed_data_dir", type=str, default="/gscratch/argon/stelli/reddit_norm/upvote_prediction/processed_upvotes")
+    parser.add_argument("--processed_data_dir", type=str, default="/gscratch/argon/stelli/reddit_norm/upvote_prediction/data/processed_upvotes")
+    parser.add_argument('--start_idx', type=int, default=0)
+    parser.add_argument('--end_idx', type=int, default=100000000)
     return parser.parse_args()
 args = get_args()
 subreddit = args.subreddit
@@ -69,7 +72,7 @@ default_model_dir = {
     "shittyaskscience": "/gscratch/argon/stelli/reddit_norm/upvote_prediction/upvote_prediction_models/shittyaskscience_dialogueRPT_log_half_5ep_time",
     "democrats": "/gscratch/argon/stelli/reddit_norm/upvote_prediction/upvote_prediction_models/democrats_dialogueRPT_log_half_5ep_time",
     "republican": "/gscratch/argon/stelli/reddit_norm/upvote_prediction/upvote_prediction_models/republican_dialogueRPT_log_half_5ep_time",
-    "libertarian": "/gscratch/argon/stelli/reddit_norm/upvote_prediction/upvote_prediction_models/libertarian_dialogueRPT_log_half_2ep_time",
+    "libertarian": "/gscratch/argon/stelli/reddit_norm/upvote_prediction/upvote_prediction_models/libertarian_dialogueRPT_log_half_2ep_time_author",
     "wallstreetbets": "/gscratch/argon/stelli/reddit_norm/upvote_prediction/upvote_prediction_models/wallstreetbets2m_dialogueRPT_log_2m_2ep_time",
     "stocks": "/gscratch/argon/stelli/reddit_norm/upvote_prediction/upvote_prediction_models/stocks_dialogueRPT_log_half_5ep_time",
     "pennystocks": "/gscratch/argon/stelli/reddit_norm/upvote_prediction/upvote_prediction_models/pennystocks_dialogueRPT_log_half_5ep_time",
@@ -119,10 +122,13 @@ def preprocess_function(examples):
         "labels": []
     }
     for title, comment, label, post_time, reply_time, author, author_id in zip (examples["submission_title"], examples["comment"], examples[args.label_type], examples["created_submission"], examples["created_comment"], examples["author"], examples["author_id"]):
-        input_text = f"{title} || {comment}"
+        if args.nopost: input_text = f"{comment}"
+        else: input_text = f"{title} || {comment}"
+        
         if args.time == "unix": input_text = f"Time of reply: {reply_time}, which is {reply_time-post_time} after post. || {input_text}"
         elif args.time == "string_old": input_text = f"{input_text} || Reply time after post: {reply_time-post_time}. "
         elif args.time == "readable": input_text = f"Time of reply: {datetime.fromtimestamp(reply_time).strftime('%A %B %d %Y %H:%M:%S %p')}, which is {seconds_to_time_string(reply_time-post_time)} after post. || {input_text}"
+        
         if args.author != None: input_text = f"Author: {author} ({author_id}) || {input_text}"
         
         tokenized = tokenizer(input_text, truncation=True, padding='max_length', max_length=MAX_LENGTH)
@@ -464,135 +470,6 @@ def main_filter_original_comments():
                 file.write(f"{i}\t{corrects[gap]['all'][0]}\t{accumulative_acc[gap]/(i+len(predictions))}\t{len(filtered_ids[gap])}\t{len(corrects[gap])-1}\t{len(filtered_ids[gap])/(len(corrects[gap])-1)}\n")
             
 
-def main_predict_synthetic_comments():
-    model = AutoModelForSequenceClassification.from_pretrained(args.model_dir)
-    model.to(device)
-
-    with open(f"{args.processed_data_dir}/{subreddit}.pkl", "rb") as file:
-        raw_data = pickle.load(file)
-    raw_data = {d['id'].replace("t1_", '') if 'id' in d else i: d for i, d in enumerate(raw_data)}
-
-    new_model_dir = args.model_dir
-    if new_model_dir == None: raise ValueError("model_dir is not provided")
-    if not os.path.isdir(new_model_dir): raise ValueError("model_dir does not exist")
-
-    with open(os.path.join(new_model_dir, "label_distribution.json"), "r") as file:
-        label_stats = json.load(file)
-    label_mean, label_std = label_stats["mean"], label_stats["std"]
-
-    per_device_batch_size = args.batch_size
-    training_args = TrainingArguments(
-            output_dir=new_model_dir,
-            per_device_eval_batch_size=per_device_batch_size,
-            )
-
-    trainer = RegressionTrainer(
-        model=model,
-        tokenizer=tokenizer,
-        args=training_args,
-        compute_metrics=foo_metrics,
-    )
-
-    good_ids = {}
-    original_ids = {}
-    with open(f'{args.data_dir}/winrate-{args.topic}-{args.dimension}.csv' if args.dimension != "humor" else f'{args.data_dir}/winrate-{args.topic}-humorous.csv', newline='') as csvfile:
-        spamreader = csv.reader(csvfile)
-        for i, row in enumerate(spamreader):
-            good_ids[row[1]] = {"comment": row[3], "post_title": row[5], "winrate": row[6]}
-            original_ids[row[2]] = {"post_title": row[5]}
-
-    filename = os.path.join("/gscratch/argon/stelli/reddit_norm/style_transfer/data/output/llama3", f"{args.subreddit}_{args.dimension}.jsonl")
-    with open(filename, "r") as json_file:
-        json_list = list(json_file)
-    inference_data = [json.loads(json_str) for json_str in json_list]
-
-    for i in range(len(inference_data)):
-        sample = {k: v.split(":\n\n")[-1] if type(v)==str else v for k, v in inference_data[i].items()}
-        if 'id' in sample: sample['id'] = sample['id'].split('_')[-1]
-        inference_data[i] = sample
-
-    print("loaded data from:", filename)
-
-    inf_data = []
-    original_comment_to_ground_truth = {}
-    for sample in inference_data:
-        new_id = f"{sample['id']}-0"
-        if new_id in good_ids: 
-            inf_data.append({'idx': new_id,
-                                'comment': good_ids[new_id]['comment'],
-                                'submission_title': good_ids[new_id]['post_title'],
-                                'submission_body': '',
-                                'label': raw_data[sample['id']]['label'],
-                                'created_submission': raw_data[sample['id']]['created_submission'],
-                                'created_comment': raw_data[sample['id']]['created_comment'],
-                                'author': raw_data[sample['id']]['author'],
-                                'author_id': raw_data[sample['id']]['author_id'],
-                                'winrate': good_ids[new_id]['winrate'],
-                            })
-            original_comment_to_ground_truth[new_id] = sample["original_score"]
-
-        for rating in ['1', '2', '3', '4', '5']:
-            if rating in sample:
-                new_id = f"{sample['id']}-{rating}"
-                if new_id in good_ids: inf_data.append({'idx': new_id,
-                                                'comment': good_ids[new_id]['comment'],
-                                                'submission_title': good_ids[new_id]['post_title'],
-                                                'submission_body': '',
-                                                'label': 0,
-                                                'created_submission': raw_data[sample['id']]['created_submission'],
-                                                'created_comment': raw_data[sample['id']]['created_comment'],
-                                                'author': raw_data[sample['id']]['author'],
-                                                'author_id': raw_data[sample['id']]['author_id'],
-                                                'winrate': good_ids[new_id]['winrate']
-                                                })
-    print("percent comments left after lexical filtering from winrate file: {}%".format(len(inf_data)/len(inference_data)*100/6))
-
-    inf_dataset = load_inference_data(inf_data, label_mean, label_std, datasize=args.sample_eval_size)
-    predictions, labels, metrics = trainer.predict(inf_dataset, metric_key_prefix="predict")
-    print("Number of predictions generation:", len(predictions))
-    print("Example predictions:")
-    for i in range(min(10, len(predictions))):
-        print(f"prediction: {predictions[i][0]}, comment: {inf_data[i]['comment']}")
-
-    f = open(f"{args.model_dir}/label_distribution.json")
-    stats = json.load(f)
-    f.close()
-    mean, std = stats["mean"], stats["std"]
-
-    for i in range(len(inf_data)):
-        inf_data[i]['upvote_z'] = float(predictions[i][0])
-        inf_data[i]['upvote'] = float(predictions[i][0]) * std + mean
-        inf_data[i]['winrate'] = float(inf_data[i]['winrate']) if inf_data[i]['winrate'] != '' else ''
-
-    inf_data_dict = {sample['idx']: sample for sample in inf_data if sample['winrate'] != ''}
-    inf_data_plot = {}
-    out_filepath = os.path.join(args.output_dir, "upvote_predictions_out", f"predictions_{args.subreddit}_{args.dimension}.jsonl")
-    with open(out_filepath, 'w') as f:
-        f.write('')
-    f = open(out_filepath, "a+")
-    for key, sample in inf_data_dict.items():
-        # if '-0' in key: continue
-        original_key = key.split('-')[0] + '-0'
-        if original_key not in inf_data_dict:
-            print(f"{original_key} not in data")
-            continue
-        inf_data_plot[key] = {'idx': key,
-                            'comment': sample['comment'],
-                            'submission_title': sample['submission_title'],
-                            'submission_body': sample['submission_body'],
-                            'upvote_delta': sample['upvote'] - inf_data_dict[original_key]['upvote'],
-                            'upvote_z_delta': sample['upvote_z'] - inf_data_dict[original_key]['upvote_z'],
-                            'upvote_z': sample['upvote_z'],
-                            'upvote': sample['upvote'],
-                            'winrate_delta': sample['winrate'] - inf_data_dict[original_key]['winrate'],
-                            'winrate': sample['winrate']
-                            }
-        json.dump(inf_data_plot[key], f)
-        f.write('\n')
-    f.close()
-
-    print(f"saved {len(inf_data_plot)} samples to {out_filepath}")
-
 
 def main_predict_synthetic_comments_new():
 
@@ -615,16 +492,15 @@ def main_predict_synthetic_comments_new():
         if 'id' in sample: sample['id'] = sample['id'].replace("t1_", '')
         inference_data[i] = sample
     print("loaded data from:", filename)
+    print("number of inference data:", len(inference_data))
 
     new_model_dir = args.model_dir
     if new_model_dir == None: raise ValueError("model_dir is not provided")
     if not os.path.isdir(new_model_dir): raise ValueError("model_dir does not exist")
-    model = AutoModelForSequenceClassification.from_pretrained(new_model_dir)
-    model.to(device)
+    
     with open(os.path.join(default_model_dir[args.subreddit], "label_distribution.json"), "r") as file:
         label_stats = json.load(file)
     label_mean, label_std = label_stats["mean"], label_stats["std"]
-    print("Loaded model from:", new_model_dir)
     
 
     # load and deduplicate the predictions for original (real) comments
@@ -633,39 +509,90 @@ def main_predict_synthetic_comments_new():
             file.write("id,idx,prediction,label,acc_0.1,acc_0.3,acc_1.0,acc_0.01,total_0.1,total_0.3,total_1.0,total_0.01\n")
     predictions_old = pd.read_csv(os.path.join(new_model_dir, f"predictions.csv"))
     predictions_old.drop_duplicates(inplace=True)
-    predictions_old = predictions_old.loc[:, ~predictions_old.columns.str.contains('^Unnamed')]
+    # predictions_old = predictions_old.loc[:, ~predictions_old.columns.str.contains('^Unnamed')]
     predictions_old.to_csv(os.path.join(new_model_dir, f"predictions.csv"))
 
     predictions_only = pd.read_csv(new_model_dir + '/predictions_only.csv') if os.path.exists(new_model_dir + '/predictions_only.csv') else pd.DataFrame(columns=["id", "idx", "prediction", "label"])
-    predictions_only = predictions_only.loc[:, ~predictions_only.columns.str.contains('^Unnamed')]
+    # predictions_only = predictions_only.loc[:, ~predictions_only.columns.str.contains('^Unnamed')]
     # find the indices that exist in predcitions but not in predictions_only, and add them to predictions_only
     idxs_to_add = predictions_old[~predictions_old['id'].isin(predictions_only['id'])].index
     print("number of ids in predictions.csv but not predictions_only.csv:", len(idxs_to_add))
     predictions_only = pd.concat([predictions_only, predictions_old.iloc[idxs_to_add][["id", "idx", "prediction", "label"]]])
+    
+    # remove the rows with the idx value not in the inference data
+    inferences_idxs = [sample['idx'] for sample in inference_data]
+    predictions_only = predictions_only[predictions_only['idx'].isin(inferences_idxs)]
+    print("number of ids in predictions_only.csv after filtering:", len(predictions_only))
+
     predictions_only.drop_duplicates(inplace=True)
     predicted_real_idxs = predictions_only['id'].tolist()
-    predictions_only.to_csv(new_model_dir + '/predictions_only.csv')
-    
 
-    out_filepath = os.path.join(args.output_dir, "upvote_predictions_all", f"predictions_{args.subreddit}_{args.dimension}.jsonl")
+    predictions_only.to_csv(new_model_dir + '/predictions_only.csv')
+
+    
+    # read and deduplicate the output file
+    out_filepath = os.path.join(args.output_dir, "upvote_predictions", f"predictions_{args.subreddit}_{args.dimension}.jsonl")
     if os.path.exists(out_filepath):
         with open(out_filepath, "r") as json_file: json_list = list(json_file)
-        predicted_syntetic_ids = [json.loads(json_str)["id"] for json_str in json_list]
+        predicted_data = [json.loads(json_str) for json_str in json_list]
+        print("loaded data from:", out_filepath)
+        
+        num_predicted_data = len(predicted_data)
+        print("number of predicted data:", num_predicted_data)
+        
+        predicted_data = {sample['id']: sample for sample in predicted_data}
+        predicted_syntetic_ids = list(predicted_data.keys())
+        num_dedup_predicted_data = len(predicted_syntetic_ids)
+        print("number of deduplicated predicted data:", num_dedup_predicted_data)
+        
+        if num_dedup_predicted_data < num_predicted_data:
+            print(f"removed {num_predicted_data - num_dedup_predicted_data} duplicates from the predicted data")
+            with open(out_filepath, "w") as f:
+                for sample in predicted_data.values():
+                    json.dump(sample, f)
+                    f.write('\n')
+
     else: predicted_syntetic_ids = []
+
+    num_inference_all = len(inference_data)
+    print("Num inference data in the inference file:", num_inference_all)
+    try: 
+        inference_data = inference_data[args.start_idx:min(args.end_idx, len(inference_data))]
+        print(f"Processing comments from index {args.start_idx} to {args.end_idx}")
+    except: 
+        pass
+        print(f"Start & end range not specified / invalid, processing all remaining comments")
+    num_in_range = len(inference_data)
+    inference_data = [sample for sample in inference_data if sample['id'] not in predicted_syntetic_ids]
+    print(f"Number of comments in the specified range not yet predicted: {len(inference_data)}/{num_in_range}")
+
+    if len(inference_data) == 0:
+        print("No comments to predict, exiting program")
+        return
     
     pred_label_type = f'upvote_{args.label_type.split("_")[-1]}'
 
+    model = AutoModelForSequenceClassification.from_pretrained(new_model_dir)
+    model.to(device)
+    print("Loaded model from:", new_model_dir)
+    
     for global_i, sample in enumerate(inference_data):
-        if sample['id'] in predicted_syntetic_ids: 
-            print(f"ID={sample['id']}, skipped")
-            continue
+
+        # if sample['id'] in predicted_syntetic_ids: 
+        #     if raw_data[sample['id']]['created_comment'] > 1640998800:
+        #         print(f"ID={sample['id']}, skipped, AFTER 2022-12-31")
+        #     else:
+        #         print(f"ID={sample['id']}, skipped")
+        #     continue
+        # if raw_data[sample['id']]['created_comment'] > 1640998800:
+        #     print(f"ID={sample['id']}, AFTER 2022-12-31")
         
         if global_i % 100 == 0: 
-            print(f"\n[{datetime.now().strftime('%Y-%m-%d %H-%M-%S')}] Starting at: {global_i}, Updating predicted_real_idxs")
-            predictions_only = pd.read_csv(new_model_dir + '/predictions_only.csv') if os.path.exists(new_model_dir + '/predictions_only.csv') else pd.DataFrame(columns=["id", "idx", "prediction", "label"])
-            predictions_only = predictions_only.loc[:, ~predictions_only.columns.str.contains('^Unnamed')]
-            predictions_only.drop_duplicates(inplace=True)
-            predicted_real_idxs = predictions_only['id'].tolist()
+            print(f"\n[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] Starting at: {global_i}, Updating predicted_real_idxs")
+            # predictions_only = pd.read_csv(new_model_dir + '/predictions_only.csv') if os.path.exists(new_model_dir + '/predictions_only.csv') else pd.DataFrame(columns=["id", "idx", "prediction", "label"])
+            # predictions_only = predictions_only.loc[:, ~predictions_only.columns.str.contains('^Unnamed')]
+            # predictions_only.drop_duplicates(inplace=True)
+            # predicted_real_idxs = predictions_only['id'].tolist()
 
         if sample['id'] in predicted_real_idxs:
             new_id = f"{sample['id']}-0"
@@ -696,7 +623,6 @@ def main_predict_synthetic_comments_new():
                                         'created_comment': raw_data[sample['id']]['created_comment'],
                                         'author': raw_data[sample['id']]['author'],
                                         'author_id': raw_data[sample['id']]['author_id']})
-                    breakpoint()
             predictions = model_predict(model, tokenizer, comments_to_predict, args.batch_size)
             # inf_dataset = load_inference_data(comments_to_predict, label_mean, label_std, datasize=args.sample_eval_size)
             # breakpoint()
@@ -731,11 +657,14 @@ def main_predict_synthetic_comments_new():
                                     'created_comment': raw_data[sample['id']]['created_comment'],
                                     'author': raw_data[sample['id']]['author'],
                                     'author_id': raw_data[sample['id']]['author_id']})
+                breakpoint()
             predictions = model_predict(model, tokenizer, comments_to_predict, args.batch_size)
             for i in range(len(comments_to_predict)):
                 comments_to_predict[i][pred_label_type] = float(predictions[i])
                 comments_to_predict[i]['upvote'] = float(predictions[i]) * label_std + label_mean if "z" in args.label_type else np.exp(float(predictions[i]))
-                out_dict[comments_to_predict[i]['idx']] = {'comment': comments_to_predict[i]['comment'], pred_label_type: comments_to_predict[i][pred_label_type], 'upvote': comments_to_predict[i]['upvote']}
+                out_dict[comments_to_predict[i]['idx']] = {'comment': comments_to_predict[i]['comment'], 
+                                                           pred_label_type: comments_to_predict[i][pred_label_type], 
+                                                           'upvote': comments_to_predict[i]['upvote']}
             # append to output file
             with open(out_filepath, "a+") as f:
                 json.dump(out_dict, f)
@@ -743,6 +672,8 @@ def main_predict_synthetic_comments_new():
             # append the prediction for the real comments to predictions_only.csv
             with open(os.path.join(new_model_dir, f"predictions_only.csv"), "a+") as file:
                 file.write(f"{sample['id']},{sample['idx']},{predictions[0]},{orig_label}\n")
+        
+        if global_i % 100 == 0: 
             print(f"ID={sample['id']}: {predictions[0]} ({orig_label}), {predictions[1]}, {predictions[2]}, {predictions[3]}, {predictions[4]}, {predictions[5]}")
 
 

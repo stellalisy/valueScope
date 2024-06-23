@@ -1,7 +1,10 @@
+__pycache__
 rpm_model/rpm_figures_old/*
+norm_prediction/figures/*
 style_transfer/data/*
 style_transfer/logs/*
 style_transfer/scripts_old/*
+style_transfer/slurm_scripts/*
 upvote_prediction/data/*
 upvote_prediction/logs/*
 upvote_prediction/slurm_scripts/*
@@ -9,3 +12,4 @@ upvote_prediction/src_upvote_prediction/*
 upvote_prediction/upvote_prediction_models/*
 upvote_prediction/upvote_prediction_models_filter/*
 upvote_prediction/wandb/*
+analysis/*

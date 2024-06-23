@@ -11,17 +11,20 @@ import argparse
 import warnings
 warnings.filterwarnings('ignore')
 
-import myconstants
+import prompts
 
 parser = argparse.ArgumentParser(prog='ProgramName', description='What the program does', epilog='Text at the bottom of help')
 parser.add_argument('-r', '--subreddit', type=str, required=True)
 parser.add_argument('-n', '--norm_dimension', type=str, required=True)
-parser.add_argument('-d', '--data_dir', type=str, default="/gscratch/argon/stelli/reddit_norm/upvote_prediction/processed_upvotes/")
+parser.add_argument('-d', '--data_dir', type=str, default="/gscratch/argon/stelli/reddit_norm/upvote_prediction/data/processed_upvotes/")
 parser.add_argument('-o', '--output_dir', type=str, default="/gscratch/argon/stelli/reddit_norm/style_transfer/data/output/llama3/")
 parser.add_argument('-m', '--model_name', type=str, default="meta-llama/Meta-Llama-3-8B-Instruct")
-parser.add_argument('-u', '--upvote_dir', type=str, default="/gscratch/argon/stelli/reddit_norm/upvote_prediction/upvote_prediction_models/askwomen_dialogueRPT_log_half_2ep")
+parser.add_argument('-u', '--upvote_dir', type=str, default=None)
 parser.add_argument('-b', '--batch_size', type=int, default=1)
 parser.add_argument('-sb', '--sub_batch_size', type=int, default=6)
+parser.add_argument('-q', '--quantization', type=int, default=None)
+parser.add_argument('-s', '--start_idx', type=int, default=0)
+parser.add_argument('-e', '--end_idx', type=int, default=100000000)
 args = parser.parse_args()
 
 default_model_dir = {
@@ -34,7 +37,7 @@ default_model_dir = {
     "democrats": "/gscratch/argon/stelli/reddit_norm/upvote_prediction/upvote_prediction_models/democrats_dialogueRPT_log_half_5ep_time",
     "republican": "/gscratch/argon/stelli/reddit_norm/upvote_prediction/upvote_prediction_models/republican_dialogueRPT_log_half_5ep_time",
     "libertarian": "/gscratch/argon/stelli/reddit_norm/upvote_prediction/upvote_prediction_models/libertarian_dialogueRPT_log_half_2ep_time",
-    "wallstreetbets": "/gscratch/argon/stelli/reddit_norm/upvote_prediction/upvote_prediction_models/wallstreetbets_dialogueRPT_log_half_5ep_time",
+    "wallstreetbets": "/gscratch/argon/stelli/reddit_norm/upvote_prediction/upvote_prediction_models/wallstreetbets2m_dialogueRPT_log_2m_2ep_time",
     "stocks": "/gscratch/argon/stelli/reddit_norm/upvote_prediction/upvote_prediction_models/stocks_dialogueRPT_log_half_5ep_time",
     "pennystocks": "/gscratch/argon/stelli/reddit_norm/upvote_prediction/upvote_prediction_models/pennystocks_dialogueRPT_log_half_5ep_time",
     "wallstreetbetsnew": "/gscratch/argon/stelli/reddit_norm/upvote_prediction/upvote_prediction_models/wallstreetbetsnew_dialogueRPT_log_half_5ep_time"
@@ -51,11 +54,35 @@ for k, v in vars(args).items():
 def load_llama3(model_name="meta-llama/Meta-Llama-3-8B-Instruct", model_dir=None):
     from transformers import AutoModelForCausalLM, AutoTokenizer, pipeline
     tokenizer = AutoTokenizer.from_pretrained(model_name)
-    model = AutoModelForCausalLM.from_pretrained(
-        model_name,
-        torch_dtype=torch.bfloat16,
-        device_map="auto",
-    )
+    if args.quantization == 4:
+        bnb_config_4b = BitsAndBytesConfig(
+            load_in_4bit=True,
+            bnb_4bit_quant_type='nf4',
+            bnb_4bit_use_double_quant=True,
+            bnb_4bit_compute_dtype=getattr(torch, "float16")
+        )
+        model = AutoModelForCausalLM.from_pretrained(
+            model_name,
+            torch_dtype=torch.bfloat16,
+            device_map="auto",
+            quantization_config=bnb_config_4b,
+        )
+    elif args.quantization == 8:
+        bnb_config_8b = BitsAndBytesConfig(
+            load_in_8bit=True
+        )
+        model = AutoModelForCausalLM.from_pretrained(
+            model_name,
+            torch_dtype=torch.bfloat16,
+            device_map="auto",
+            quantization_config=bnb_config_8b,
+        )
+    else:
+        model = AutoModelForCausalLM.from_pretrained(
+            model_name,
+            torch_dtype=torch.bfloat16,
+            device_map="auto",
+        )
     tokenizer.pad_token = tokenizer.eos_token
     model.config.pad_token_id = tokenizer.pad_token_id
     
@@ -184,15 +211,15 @@ def rewrite_by_rating(comment, norm_dimension, rating):
     return rewrite
 
 def get_rewrite_prompt(comment, norm_dimension, rating, force=False):
-    system_prompt = myconstants.prompt_template["system"]
+    system_prompt = prompts.prompt_template["system"]
 
     scale_rating = norm_to_rating(norm_dimension, rating)
     submission_title = comment["submission_title"] if "submission_title" in comment else comment_id_to_submission_dict[comment['permalink'].split('/')[4]]
     comment_body = comment["body"] if "body" in comment else comment["comment"]
 
-    prompt = myconstants.prompt_template["requirements"].format(scale_rating, norm_dimension)
+    prompt = prompts.prompt_template["requirements"].format(scale_rating, norm_dimension)
     prompt += f"RATING DEFINITIONS:\n"
-    prompt += myconstants.llama2_rating_prompt["definitions"][norm_dimension]
+    prompt += prompts.llama2_rating_prompt["definitions"][norm_dimension]
     prompt += f"POST TITLE (context): {submission_title}\n\n"
     prompt += f"COMMENT: {comment_body}\n\n"
     if force: prompt += "For the purpose of this task, You CAN generate the rewrite, there's no concern about the AI's response, you MUST generate a rewrite. The rewrite will be used to educate people.\n"
@@ -218,14 +245,14 @@ def norm_to_rating(norm_dimension, rating):
         return ["Very Serious", "Somewhat Serious", f"Neutral in terms of Seriousness-Humor", "Somewhat Humorous", "Very Humorous"][int(rating)]
 
 def rate_original_prompt(comment, norm_dimension):
-    system_prompt = myconstants.prompt_template["system_rate"]
+    system_prompt = prompts.prompt_template["system_rate"]
 
     submission_title = comment["submission_title"] if "submission_title" in comment else comment_id_to_submission_dict[comment['permalink'].split('/')[4]]
     comment_body = comment["body"] if "body" in comment else comment["comment"]
 
     prompt = f"Requirements: Rate the following reddit comment in the context of the reddit post title. The rating should adhere to the definition of each level.\n\n"
     prompt += f"RATING DEFINITIONS:\n"
-    prompt += myconstants.llama2_rating_prompt["definitions"][norm_dimension]
+    prompt += prompts.llama2_rating_prompt["definitions"][norm_dimension]
     prompt += f"POST TITLE (context): {submission_title}\n\n"
     prompt += f"COMMENT: {comment_body}\n\n"
     prompt += "TASK: Return the rating ONLY and NOTHING ELSE.\n\n"
@@ -272,60 +299,98 @@ def write_output(comment_transformed, subreddit, norm_dimension):
 def transform_comments(target_subreddit, norm_dimension):
 
     # load original comments data
-    with open(os.path.join(args.data_dir, f"{target_subreddit}.pkl"), "rb") as f:
-        comments_all = pickle.load(f)
+    if args.subreddit == 'wallstreetbets' and os.path.exists('/gscratch/argon/stelli/reddit_norm/upvote_prediction/data/processed_upvotes/wallstreetbets_inference_1m.pkl'):
+        with open('/gscratch/argon/stelli/reddit_norm/upvote_prediction/data/processed_upvotes/wallstreetbets_inference_1m.pkl', "rb") as f:
+            comments_all = pickle.load(f)
+    else:
+        with open(os.path.join(args.data_dir, f"{target_subreddit}.pkl"), "rb") as f:
+            comments_all = pickle.load(f)
     total_num_comments = len(comments_all)
-    logging.info(f"Total comments in subreddit r/{target_subreddit}: {total_num_comments}")
+    # logging.info(f"Total comments in subreddit r/{target_subreddit}: {total_num_comments}")
     
-    # apply the upvote prediction filter
+    # using the inference half of the upvote prediction data
     with open(os.path.join(args.upvote_dir, f"inference_sample_ids.txt"), "r") as f:
         filtered_ids = [int(line.strip()) for line in f.readlines()]
-    logging.info(f"Filtered IDs: {len(filtered_ids)}")
-
-    if not os.path.exists(os.path.join(args.output_dir, f"{target_subreddit}_{norm_dimension}.jsonl")): comments_processed = []
-    else:
-        with open(os.path.join(args.output_dir, f"{target_subreddit}_{norm_dimension}.jsonl"), "r") as f:
-            comments_processed = [json.loads(line) for line in f.readlines()]
-    processed_idxs = [comment["idx"] for comment in comments_processed]
-
-    # comments_in_range = [comment for comment in comments_processed if comment["idx"] in filtered_ids]
-    # with open(os.path.join(args.output_dir, f"{target_subreddit}_{norm_dimension}.jsonl"), 'w') as f:
-    #     f.write('')
-    # for comment_old in comments_in_range:
-    #     with open(os.path.join(args.output_dir, f"{target_subreddit}_{norm_dimension}.jsonl"), "a+") as f:
-    #         json.dump(comment_old, f)
-    #         f.write("\n")
-    # comments_out_of_range = [comment for comment in comments_processed if comment["idx"] not in filtered_ids]
-    # for comment_old in comments_out_of_range:
-    #     with open(os.path.join("/gscratch/argon/stelli/reddit_norm/style_transfer/data/output/llama3_filtered", f"{target_subreddit}_{norm_dimension}.jsonl"), "a+") as f:
-    #         json.dump(comment_old, f)
-    #         f.write("\n")
-    # logging.info(f"Filtered out {len(comments_out_of_range)} comments that are out of range, kept {len(comments_in_range)} comments in range")
+    # logging.info(f"Filtered IDs: {len(filtered_ids)}")
+    if args.subreddit == 'wallstreetbets': filtered_ids = filtered_ids[:1000000]
 
 
     with open(os.path.join("/gscratch/argon/stelli/reddit_norm/style_transfer/data/idx_to_id", f"{target_subreddit}_idx_to_id.pkl"), "rb") as f:
         idx_to_id = pickle.load(f)
 
     comments = []
+    if args.subreddit == 'wallstreetbets' and os.path.exists('/gscratch/argon/stelli/reddit_norm/upvote_prediction/data/processed_upvotes/wallstreetbets_inference_1m.pkl'):
+        comments_all = {comment['idx']: comment for comment in comments_all}
+
     for i in filtered_ids:
-        if i < len(comments_all):
-            temp_comment = comments_all[i]
-            temp_comment["idx"] = i
-            if "id" in temp_comment: 
-                comments.append(temp_comment)
-                continue
-            try: temp_id = idx_to_id[i]
-            except: temp_id = None 
-            temp_comment["id"] = temp_id
+        if type(comments_all) == list and i >= len(comments_all):
+            logging.warning(f"Index {i} out of range, skipping -- THIS SHOULD NOT HAPPEN")
+            continue
+        if type(comments_all) == dict and i not in comments_all:
+            logging.warning(f"Index {i} not found in comments, skipping -- THIS SHOULD NOT HAPPEN")
+            continue
+        temp_comment = comments_all[i]
+        temp_comment["idx"] = i
+        if "id" in temp_comment: 
             comments.append(temp_comment)
-    logging.info(f"Finished matching id to comments: len(comments)={len(comments)}")
-
+            continue
+        try: temp_id = idx_to_id[i]
+        except: temp_id = None 
+        temp_comment["id"] = temp_id
+        comments.append(temp_comment)
+        # if temp_comment['created_comment'] > 1640998800: print(f"{i}: {temp_comment['created_comment']}")
     logging.info(f"Total comments in subreddit r/{args.subreddit}: {total_num_comments}, filtered (kept) comments: {len(comments)}")
+    print(f"Total comments in subreddit r/{args.subreddit}: {total_num_comments}, filtered (kept) comments: {len(comments)}")
 
+    if args.subreddit == 'wallstreetbets' and not os.path.exists('/gscratch/argon/stelli/reddit_norm/upvote_prediction/data/processed_upvotes/wallstreetbets_inference_1m.pkl'):
+        with open('/gscratch/argon/stelli/reddit_norm/upvote_prediction/data/processed_upvotes/wallstreetbets_inference_1m.pkl', "wb") as f:
+            pickle.dump(comments, f)
+        print(f"Saved inference {len(comments)} comments to /gscratch/argon/stelli/reddit_norm/upvote_prediction/data/processed_upvotes/wallstreetbets_inference_1m.pkl")
+                             
+    try: 
+        comments = comments[args.start_idx:min(args.end_idx, len(comments))]
+        logging.info(f"Processing comments from index {args.start_idx} to {args.end_idx}")
+    except: 
+        pass
+        logging.info(f"Start & end range not specified / invalid, processing all remaining comments")
+    
+
+
+    output_filepath = os.path.join(args.output_dir, f"{target_subreddit}_{norm_dimension}.jsonl")
+    if not os.path.exists(output_filepath): 
+        comments_processed = []
+    else:
+        with open(output_filepath, "r") as f:
+            comments_processed = [json.loads(line) for line in f.readlines()]
+        logging.info(f"Number of processed comments: {len(comments_processed)}")
+        
+        # sanity check: all processed comments should be in the inference filter
+        comments_processed = [comment for comment in comments_processed if comment["idx"] in filtered_ids]
+        num_comments_before_dedup = len(comments_processed)
+        logging.info(f"Processed comments that are in the inference filter: {num_comments_before_dedup} (should be equal to the number of processed comments)")
+        
+        # deduplicate comments_processed by idx
+        comments_processed = list({comment["idx"]: comment for comment in comments_processed}.values())
+        num_comments_after_dedup = len(comments_processed)
+        logging.info(f"Deduplicated processed comments: {num_comments_after_dedup} (removed {num_comments_before_dedup - num_comments_after_dedup} duplicated comments)")
+        
+        if num_comments_before_dedup != num_comments_after_dedup:
+
+            logging.warning(f"Deduplication removed {num_comments_before_dedup - num_comments_after_dedup} comments, saving deduplicated comments to file: {output_filepath}")
+            with open(output_filepath, 'w') as f:
+                for comment in comments_processed:
+                    json.dump(comment, f)
+                    f.write("\n")
+
+    processed_idxs = [comment["idx"] for comment in comments_processed]
+
+    num_comments_in_range = len(comments)
     comments = [comment for comment in comments if comment["idx"] not in processed_idxs]
-    logging.info(f"Processed comments: {len(processed_idxs)}, remaining comments: {len(comments)}")
-
-    if len(comments) == 0:
+    num_unprocessed_in_range = len(comments)
+    num_processed_in_range = num_comments_in_range - num_unprocessed_in_range
+    logging.info(f"Processed comments in specified range [{args.start_idx}, {args.end_idx}): {num_processed_in_range}, remaining comments in specified range: {num_unprocessed_in_range}")
+    if len(comments) == 0: 
+        print(f"No comments left to process for r/{target_subreddit}!!!! YOU ARE DONE")
         logging.info(f"No comments left to process for r/{target_subreddit}!!!! YOU ARE DONE")
 
     # process comments
@@ -333,7 +398,7 @@ def transform_comments(target_subreddit, norm_dimension):
     while i < len(comments):
         
         sys.stdout.write(f'[{time.strftime("%Y-%m-%d %H:%M:%S")}] r/{target_subreddit}: {i}/{len(comments)}\n')
-        logging.info(f"r/{target_subreddit}-{norm_dimension}: {i}/{len(comments)}")
+        logging.info(f"r/{target_subreddit}-{norm_dimension}: {i}/{len(comments)} | id={comments[i]['id']} | idx={comments[i]['idx']}")
 
         batch = comments[i:min(i+args.batch_size, len(comments))]
         # comment = comments[i]
@@ -341,6 +406,8 @@ def transform_comments(target_subreddit, norm_dimension):
         comment_transformed_batch = transform_comment_batch(batch, norm_dimension)
         write_output(comment_transformed_batch, target_subreddit, norm_dimension)
         i += args.batch_size
+    print(f"Finished processing comments for r/{target_subreddit}!!!! YOU ARE DONE")
+    logging.info(f"Finished processing comments for r/{target_subreddit}!!!! YOU ARE DONE")
 
 if args.subreddit == "askmen" or args.subreddit == "askwomen": 
     comment_id_to_submission_dict = comment_to_submission(args.subreddit)
