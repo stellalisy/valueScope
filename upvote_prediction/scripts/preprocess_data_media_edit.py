@@ -98,7 +98,7 @@ if __name__ == "__main__":
     # CONFIG
     # base_path = "/gscratch/argon/chanyoun/reddit_dumps/bysub/"
     base_path = "/gscratch/argon/hjung10/norm_discovery_project/data/data_reddit_dump/" # hayoung's data dir
-    path_out = "/gscratch/argon/stelli/reddit_norm/upvote_prediction/processed_upvotes_filter/"
+    path_out = "/gscratch/argon/stelli/reddit_norm/upvote_prediction/data/processed_upvotes_filter/"
     
     # subset_subreddits = set(["askmen", "askwomen", "rateme", "amiugly", "amiuglybrutallyhonest", "explainlikeimfive", "askphysics", "moderatepolitics", "truerateme", "politics", "neutralpolitics"])
     # subset_subreddits = set(["askmen", "askwomen"])
@@ -186,22 +186,30 @@ if __name__ == "__main__":
             data_to_save.append(d)
         
         edit_filer, link_filter, retrieve_time_filter, media_filter = [], [], [], []
+        not_filtered = []
         for i, sample in enumerate(data_to_save):
+            filtered = False
             if 'edited' in sample and sample['edited']:
                 edit_filer.append(sample['id'])
+                filtered = True
             if len(sample['comment'].split()) == 1 and 'http' in sample['comment']:
                 link_filter.append(sample['id'])
+                filtered = True
             if sample['retrieved_on'] != None and (sample['retrieved_on'] - sample['created_comment']) < 86400:
                 retrieve_time_filter.append(sample['id'])
+                filtered = True
             if sample['submission_has_media']:
                 media_filter.append(sample['id'])
+                filtered = True
+            if not filtered:
+                not_filtered.append(sample['id'])
 
         all_filters = list(set(list(edit_filer) + list(link_filter) + list(retrieve_time_filter) + list(media_filter)))
         print(f"edit_filer: {len(edit_filer)} - {len(edit_filer)/len(data_to_save)*100}%\nlink_filter: {len(link_filter)} - {len(link_filter)/len(data_to_save)*100}%\nretrieve_time_filter: {len(retrieve_time_filter)} - {len(retrieve_time_filter)/len(data_to_save)*100}%\nmedia_filter: {len(media_filter)} - {len(media_filter)/len(data_to_save)*100}%\nall_filters: {len(all_filters)} - {len(all_filters)/len(data_to_save)*100}%")
         with open(path_out+subreddit+"_filters.json", "w") as file:
             json.dump({"edit_filer": edit_filer, "link_filter": link_filter, "retrieve_time_filter": retrieve_time_filter, "media_filter": media_filter, "all_filters": all_filters}, file)
 
-        data_to_save = [d for d in data_to_save if d['id'] not in all_filters]
+        data_to_save = [data_to_save[d] for d in not_filtered]
         with open(path_to_save, "wb") as file:
             pickle.dump(data_to_save, file)
         print(f"saved {len(data_to_save)} processed to {path_to_save} ({ignored_due_to_time_diff} ignored)")
