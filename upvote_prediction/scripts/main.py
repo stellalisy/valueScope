@@ -471,7 +471,7 @@ def main_filter_original_comments():
             
 
 
-def main_predict_synthetic_comments_new():
+def main_predict_synthetic_comment():
 
     with open(f"{args.processed_data_dir}/{subreddit}.pkl", "rb") as file:
         raw_data = pickle.load(file)
@@ -709,4 +709,4 @@ def reformat_comments(examples, tokenizer):
 
 if args.train: main_train_upvote_model()
 if args.filter: main_filter_original_comments()
-if args.predict: main_predict_synthetic_comments_new()
+if args.predict: main_predict_synthetic_comments()
