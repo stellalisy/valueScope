@@ -11,8 +11,10 @@ valueScope/
 │   └── data/                # Data and outputs from the norm induction process
 │   └── scripts/             # Scripts related to surface important norms
 ├── norm_prediction/         # Scripts for predicting norm scales
+│   └── synthetic-labels/    # Scripts and prompts for GPT synthetic label generations for classifier training
 ├── style_transfer/
-│   └── scripts/             # Scripts related to style transfer methodologies
+│   └── scripts/             # Scripts related to style transfer generation
+│   └── filter/              # Scripts related to style transfer filter
 ├── upvote_prediction/
 │   └── scripts/             # Scripts for predicting upvotes based on community norms
 ├── .gitignore               # Specifies intentionally untracked files to ignore
