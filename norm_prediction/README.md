@@ -47,6 +47,14 @@ Example structure:
 }
 ```
 ### synthetic-labels
+This directory contains two files (e.g. gpt-synthetic-label-generation.ipynb, prompts.py) relevant to generating synthetic labels via GPT-4, which can then be used to train a smaller classifier model. The notebook `gpt-synthetic-label-generation.ipynb` holds in-depth documentation and directions explaining the workflow. The workflow within the notebook are denoted with markdown headers and can be summarized as:
+
+1. Sampling random comments from Reddit Data Dumps
+2. Employing GPT3.5 to rate comments for stratified sampling
+3. Creating random pairwise comparisons among the sampled comments
+4. Generate synthetic labels for these pairs using GPT-4
+
+Note that `prompts.py` contains all the prompt-related texts that are used to generate the synthetic labels within gpt-synthetic-label-generation.ipynb.
 
 ### train.py
 This script is used to train the models on the provided data. It processes the input data, initializes the model, and runs the training loop.
@@ -74,6 +82,9 @@ python label2winrate.py <TARGET_CAT>
 ```
 
 ## Example Workflow
+
+0. **Generate synthetic labels**: Generate synthetic labels via GPT-4 to train a smaller model
+Adjust code (e.g. directories, your variables, etc) and execute cells in `norm_prediction/synthetic-labels/gpt-synthetic-label-generation.ipynb`
 
 1. **Training**: Train a model on a specific norm dimension and category.
 ```bash
