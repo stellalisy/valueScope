@@ -1,4 +1,4 @@
-# VALUEscope: Unveiling Implicit Norms and Values via Return Potential Model of Social Interactions
+# ValueScope: Unveiling Implicit Norms and Values via Return Potential Model of Social Interactions
 
 ## Project Overview
 VALUEscope is a computational framework that leverages language models to quantify social norms and values within online communities. The project is grounded in social science perspectives on normative structures and utilizes a novel Return Potential Model (RPM) to dissect and analyze linguistic and stylistic expressions across various digital platforms.
@@ -26,7 +26,7 @@ To set up the VALUEscope framework on your local machine, follow these steps:
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/yourusername/valueScope.git
+   git clone https://github.com/stellali7/valueScope.git
    ```
 2. **Navigate to the repository directory:**
    ```bash
