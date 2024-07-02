@@ -7,18 +7,19 @@ VALUEscope is a computational framework that leverages language models to quanti
 ```
 valueScope/
 │
-├── norm_induction/          # Scripts and data for norm induction processes
-│   └── data/                # Data and outputs from the norm induction process
-│   └── scripts/             # Scripts related to surface important norms
-├── norm_prediction/         # Scripts for predicting norm scales
-│   └── synthetic-labels/    # Scripts and prompts for GPT synthetic label generations for classifier training
+├── norm_induction/               # Scripts and data for norm induction processes
+│   └── data/                     # Data and outputs from the norm induction process
+│   └── scripts/                  # Scripts related to surface important norms
+├── norm_prediction/              # Scripts for training norm prediction models and using them for binary label generation
+│   └── human-annotation-labels/  # JSON files of 4 topics for 450 human-annotated labels
+│   └── synthetic-labels/         # Scripts and prompts for GPT synthetic label generations for classifier training
 ├── style_transfer/
-│   └── scripts/             # Scripts related to style transfer generation
-│   └── filter/              # Scripts related to style transfer filter
+│   └── scripts/                  # Scripts related to style transfer generation
+│   └── filter/                   # Scripts related to style transfer filter
 ├── upvote_prediction/
-│   └── scripts/             # Scripts for predicting upvotes based on community norms
-├── .gitignore               # Specifies intentionally untracked files to ignore
-└── README.md                # This README file
+│   └── scripts/                  # Scripts for predicting upvotes based on community norms
+├── .gitignore                    # Specifies intentionally untracked files to ignore
+└── README.md                     # This README file
 ```
 
 ## Installation Instructions
